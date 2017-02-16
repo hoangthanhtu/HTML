@@ -328,10 +328,51 @@
 	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.16), 0 2px 3px 0 rgba(0, 0, 0, 0.12);
 }
 
+.navbar-text {
+	color: #FFFFFF;
+}
+
 .main-map {
 	bottom: 0;
 	border-left: 1px solid;
-
 }
+
+.navbar-home {
+	top: 51px;
+	right: 0;
+	bottom: 0;
+	width: 0;
+	position: fixed;
+	z-index: 1000;
+	background-color: #f9f9f9;
+	overflow-x: hidden;
+	padding-top: 50px;
+}
+
+/* The navigation menu links */
+.navbar-home a {
+	padding: 8px 8px 8px 30px;
+	text-decoration: none;
+	font-size: 16px;
+	color: #818181;
+	display: block;
+	transition: 0.2s
+}
+
+/* When you mouse over the navigation links, change their color */
+.navbar-home a:hover {
+	color: #10A7F1;
+}
+
+/* Position and style the close button (top right corner) */
+.navbar-home .closebtn {
+	position: absolute;
+	top: 0px;
+	right: 15px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+
+
 
 /* SEARCHLIST.html end here */
