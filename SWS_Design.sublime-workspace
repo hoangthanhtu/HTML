@@ -1,0 +1,612 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"hi",
+				"hidden-xs"
+			],
+			[
+				"bor",
+				"border-left"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"na",
+				"navbar"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"pading",
+				"padding-left"
+			],
+			[
+				"no",
+				"nopadding-right"
+			],
+			[
+				"ma",
+				"margin-right"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"shop",
+				"shoplist"
+			],
+			[
+				"bo",
+				"border-left"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"border",
+				"border-width"
+			],
+			[
+				"col",
+				"col-sm-6"
+			],
+			[
+				"to",
+				"top"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"hea",
+				"header\tTag"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"word",
+				"word-wrap"
+			],
+			[
+				"ta",
+				"table-cell"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"fo",
+				"Footer"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"so",
+				"solid"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"cen",
+				"center-block"
+			],
+			[
+				"San",
+				"SandwichSorted"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"borde",
+				"border-color"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"btn",
+				"btn-info"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"b",
+				"block"
+			],
+			[
+				"m",
+				"multiply"
+			],
+			[
+				"bg",
+				"bg\tbackground: #${1:000};"
+			],
+			[
+				"ov",
+				"overlay"
+			],
+			[
+				"tr",
+				"transparent"
+			],
+			[
+				"al",
+				"align-content"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"ove",
+				"overflow-x"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"lo",
+				"loginModal"
+			],
+			[
+				"cl",
+				"click"
+			],
+			[
+				"rev",
+				"btnReverseTable"
+			],
+			[
+				"reve",
+				"reverseModal"
+			],
+			[
+				"col-sm",
+				"col-sm-10"
+			],
+			[
+				"li",
+				"li\tTag"
+			],
+			[
+				"coll",
+				"collapse"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"he",
+				"header\tTag"
+			],
+			[
+				"ro",
+				"row-content"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"l",
+				"li\tTag"
+			],
+			[
+				"nav",
+				"navbar"
+			],
+			[
+				"u",
+				"ul\tTag"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"g",
+				"gamelevel"
+			],
+			[
+				"gu",
+				"guessCount"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 150.0,
+		"last_filter": "indent",
+		"selected_items":
+		[
+			[
+				"indent",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 160.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Projects/SandwichSorted/HTML",
+		"/D/Projects/SandwichSorted/HTML/css",
+		"/D/Projects/SandwichSorted/HTML/js"
+	],
+	"file_history":
+	[
+		"/D/Projects/SandwichSorted/HTML/settings.html",
+		"/D/Projects/SandwichSorted/HTML/css/site.css",
+		"/D/Projects/SandwichSorted/HTML/searchlist.html",
+		"/D/Projects/SandwichSorted/HTML/login.html",
+		"/D/Projects/SandwichSorted/HTML/index.html",
+		"/D/Projects/SandwichSorted/HTML1/HTML/css/site.css",
+		"/D/Projects/SandwichSorted/HTML/index1.html",
+		"/D/Projects/SandwichSorted/HTML/account.html",
+		"/D/Projects/SandwichSorted/HTML/css/bootstrap-theme.min.css",
+		"/D/Projects/SandwichSorted/HTML/css/bootstrap.min.css",
+		"/D/TuHTT/Working/Bootstrap Template/pluto-material-design-html-app-landing-page/index.html",
+		"/D/Projects/SandwichSorted/HTML/css/sitestyle.css",
+		"/D/TuHTT/Working/Bootstrap Template/startbootstrap-the-big-picture-gh-pages/css/the-big-picture.css",
+		"/D/TuHTT/Working/MOOC/Full Stack Web Development/C02_Web UI Framework/conFusion/css/mystyles_old.css",
+		"/D/TuHTT/Working/MOOC/Full Stack Web Development/C02_Web UI Framework/conFusion/css/mystyles.css",
+		"/D/TuHTT/Working/MOOC/Full Stack Web Development/C02_Web UI Framework/conFusion/index.html",
+		"/D/TuHTT/Working/Bootstrap Template/startbootstrap-the-big-picture-gh-pages/index.html",
+		"/D/TuHTT/Working/MOOC/Udemy_Emmet Faster HTML_CSS/emmet_exercise_files/18_styles.css",
+		"/D/TuHTT/Working/MOOC/Udemy_Emmet Faster HTML_CSS/emmet_exercise_files/19_gradients.html",
+		"/D/TuHTT/Working/MOOC/Udemy_Emmet Faster HTML_CSS/emmet_exercise_files/15_edit-points.html",
+		"/D/TuHTT/Working/MOOC/Udemy_Emmet Faster HTML_CSS/emmet_exercise_files/16_matching-tags.html",
+		"/D/TuHTT/Working/MOOC/Udemy_Emmet Faster HTML_CSS/emmet_exercise_files/10_text-expansion.html",
+		"/D/TuHTT/Working/MOOC/Udemy_Emmet Faster HTML_CSS/emmet_exercise_files/11_grouping-climbing.html",
+		"/D/TuHTT/Working/MOOC/Udemy_Emmet Faster HTML_CSS/emmet_exercise_files/12_numbers.html",
+		"/D/TuHTT/Working/MOOC/Udemy_Emmet Faster HTML_CSS/emmet_exercise_files/13_comments.html",
+		"/D/TuHTT/Working/MOOC/Udemy_Emmet Faster HTML_CSS/emmet_exercise_files/14_text-attributes.html",
+		"/D/TuHTT/Working/MOOC/Udemy_Emmet Faster HTML_CSS/emmet_exercise_files/9_multiply.html",
+		"/D/TuHTT/Working/MOOC/Udemy_Emmet Faster HTML_CSS/emmet_exercise_files/8_intro.html",
+		"/D/TuHTT/Working/MOOC/Udemy_Emmet Faster HTML_CSS/emmet_exercise_files/_basic.html",
+		"/D/TuHTT/Working/Bootstrap Template/responsive-full-background-image-master/responsive-full-background-image.css",
+		"/D/TuHTT/Working/MOOC/Build a Modern YouTube Homepage/js/npm.js",
+		"/D/TuHTT/Working/MOOC/Full Stack Web Development/C02_Web UI Framework/conFusion/bower.json",
+		"/D/TuHTT/Working/MOOC/Full Stack Web Development/C02_Web UI Framework/conFusion/css/mystyles.less",
+		"/D/TuHTT/Working/MOOC/Full Stack Web Development/C02_Web UI Framework/conFusion/contactus.html",
+		"/D/TuHTT/Working/MOOC/Full Stack Web Development/C02_Web UI Framework/conFusion/aboutus.html",
+		"/D/TuHTT/Working/MOOC/Full Stack Web Development/C02_Web UI Framework/conFusion/index_r1.html",
+		"/D/TuHTT/Working/MOOC/Full Stack Web Development/C02_Web UI Framework/conFusion/index_r2.html",
+		"/D/TuHTT/Working/MOOC/Full Stack Web Development/C02_Web UI Framework/conFusion/index_r3.html",
+		"/D/TuHTT/Working/MOOC/Full Stack Web Development/C02_Web UI Framework/conFusion/css/bootstrap.css",
+		"/D/TuHTT/Working/MOOC/Full Stack Web Development/C02_Web UI Framework/W1/conFusion/css/mystyles.css",
+		"/D/TuHTT/Working/MOOC/Full Stack Web Development/C02_Web UI Framework/W1/conFusion/aboutus.html",
+		"/D/TuHTT/Working/MOOC/Full Stack Web Development/C02_Web UI Framework/W1/conFusion/contactus.html",
+		"/C/Users/TuHTT/AppData/Roaming/Sublime Text 3/Packages/User/View In Browser.sublime-settings",
+		"/C/Users/TuHTT/AppData/Roaming/Sublime Text 3/Packages/View In Browser/View In Browser.sublime-settings",
+		"/D/TuHTT/Working/MOOC/Udemy_PSD To a Creative Landing Page Using Bootstrap/the setup/index.html",
+		"/D/TuHTT/Working/MOOC/Udemy_PSD To a Creative Landing Page Using Bootstrap/Ref/!TheSetup/index.html",
+		"/D/TuHTT/Working/MOOC/Udemy_PSD To a Creative Landing Page Using Bootstrap/the setup/css/main.css",
+		"/D/TuHTT/Working/MOOC/Udemy_PSD To a Creative Landing Page Using Bootstrap/index.html",
+		"/D/TuHTT/Working/MOOC/Web UI Framework/W1/conFusion/aboutus _amit.html",
+		"/D/TuHTT/Working/MOOC/Web UI Framework/W1/conFusion/index.html",
+		"/D/TuHTT/Working/MOOC/Web UI Framework/W1/conFusion/aboutus.html",
+		"/D/TuHTT/Working/MOOC/Web UI Framework/W1/conFusion/aboutus_padala.html",
+		"/D/TuHTT/Working/MOOC/Web UI Framework/W1/conFusion/aboutus_LeTrongLuc.html",
+		"/D/TuHTT/Working/MOOC/Web UI Framework/W1/conFusion/css/mystyles.css",
+		"/D/TuHTT/Working/MOOC/CS034_HTML_CSS and JavaScript/W3/part4.html",
+		"/D/TuHTT/Working/MOOC/CS034_HTML_CSS and JavaScript/W3/Matching Game/game.html",
+		"/D/TuHTT/Working/MOOC/CS034_HTML_CSS and JavaScript/W3/part3.html",
+		"/D/TuHTT/Working/MOOC/CS034_HTML_CSS and JavaScript/W2/part1.html",
+		"/D/TuHTT/Working/MOOC/CS034_HTML_CSS and JavaScript/W2/part2.html",
+		"/D/TuHTT/Working/MOOC/CS034_HTML_CSS and JavaScript/W1/PeerGradedAssignment/part3.html",
+		"/D/99_Working/FSCoin/Q3_2016/Q3_2016/Q3.txt",
+		"/D/99_Working/20160904/Fresher21/Fresher21DN_ReviewSourceCode_Evaluation.xlsx",
+		"/D/99_Working/CNU/Fresher 22/CNU-FR22/CNU_FinalTest_ThongNX/DemChuoiCon.java",
+		"/D/99_Working/20160103/CRG_Daily Agenda Meeting.txt",
+		"/D/99_Working/20160103/CRG_Daily Agenda Meeting_TS",
+		"/D/99_Working/20160223/20131024/TConst.bas",
+		"/D/99_Working/20160103/TuHTT1.ics",
+		"/D/99_Working/20151228/ChamWhitebox/Code/FR18DN_MockProject_IT1_Coding_KhoaiP/Mock1_Khoaip/Mock1_Khoaip/Controllers/ListapplicationController.cs",
+		"/D/99_Working/20151228/ChamWhitebox/Code/FR18DN_MockProject_IT1_Coding_KhoaiP/Mock1_Khoaip/Mock1_Khoaip/Controllers/SearchController.cs",
+		"/D/99_Working/20151228/ChamWhitebox/Code/FR18DN_MockProject_IT1_Coding_KhoaiP/Mock1_Khoaip/Mock1_Khoaip/Models/SearchApplication.cs",
+		"/D/99_Working/20151228/ChamWhitebox/Code/FR18DN_MockProject_IT1_Coding_KhoaiP/Mock1_Khoaip/Mock1_Khoaip/Models/Xulydulieu.cs",
+		"/D/99_Working/20151228/ChamWhitebox/Code/FR18DN_MockProject_IT1_Coding_KhoaiP/Mock1_Khoaip/Mock1_Khoaip/Models/ListApplication.cs",
+		"/D/99_Working/20151228/ChamWhitebox/Code/FR18DN_MockProject_IT1_Coding_KhoaiP/Mock1_Khoaip/Mock1_Khoaip/Models/Phantrang.cs",
+		"/D/99_Working/20151228/ChamWhitebox/Code/FR18DN_MockProject_IT1_Coding_KhoaiP/Mock1_Khoaip/Mock1_Khoaip/Models/User.cs",
+		"/D/99_Working/20151228/ChamWhitebox/Code/FR18DN_MockProject_IT1_Coding_KhoaiP/Mock1_Khoaip/Mock1_Khoaip/Models/SearchData.cs",
+		"/D/99_Working/20151228/ChamWhitebox/Code/FR18DN_MockProject_IT1_Coding_KienHQ/Mock1/Controllers/ViewApplicationDetailsController.cs",
+		"/D/99_Working/20151228/ChamWhitebox/Code/FR18DN_MockProject_IT1_Coding_KienHQ/Mock1/Global.asax.cs",
+		"/D/99_Working/20151228/ChamWhitebox/Code/FR18DN_MockProject_IT1_Coding_KienHQ/Mock1/ConnectDatabase/DataBase.cs",
+		"/D/99_Working/20151228/ChamWhitebox/Code/FR18DN_MockProject_IT1_Coding_KienHQ/Mock1/Models/BankDetails.cs",
+		"/D/99_Working/20151228/ChamWhitebox/Code/FR18DN_MockProject_IT1_Coding_KienHQ/Mock1/Models/CreditApplication.cs",
+		"/D/99_Working/20151228/ChamWhitebox/Code/FR18DN_MockProject_IT1_Coding_KienHQ/Mock1/Views/ViewApplicationDetails/ListApplication.cshtml",
+		"/D/99_Working/20151228/ChamWhitebox/Code/FR18DN_MockProject_IT1_Coding_KienHQ/Mock1/Views/ViewApplicationDetails/EditApplication.cshtml",
+		"/D/99_Working/20151228/ChamWhitebox/Code/Fresher18DN_MockProject_T1_MinhTQ11_Code/Minhtq11_Mock1/Minhtq11_Mock1/Scripts/myscript.js",
+		"/D/99_Working/20151228/ChamWhitebox/Code/FR18DN_MockProject_IT1_Code_LongNNB/MockFinal/Controllers/EtailerController.cs",
+		"/D/99_Working/20151228/ChamWhitebox/Code/FR18DN_MockProject_IT1_Code_LongNNB/MockFinal/Models/EtailerDAO.cs",
+		"/D/99_Working/20151228/ChamWhitebox/Code/Fresher18DN_MockProject_T1_MinhTQ11_Code/Minhtq11_Mock1/Minhtq11_Mock1/Controllers/HomeController.cs",
+		"/D/99_Working/20151228/ChamWhitebox/Code/Fresher18DN_MockProject_T1_MinhTQ11_Code/Minhtq11_Mock1/Minhtq11_Mock1/Models/CurrentAddressDetail.cs",
+		"/D/99_Working/20151228/ChamWhitebox/Code/FR18DN_MockProject_IT1_Coding_PhucNH13/PROCEDURE.sql",
+		"/D/99_Working/20151228/ChamWhitebox/Code/FR18DN_MockProject_IT1_Coding_PhucNH13/UserManagement/UserManagement/DAO/UserDAO.cs",
+		"/D/99_Working/20151228/ChamWhitebox/Code/FRE18DN_MockProject_IT1_Coding_QuyPT/MockProject1/MockProject1/Dao/CreditApplicationDao.cs",
+		"/D/99_Working/20151228/ChamWhitebox/Code/FRE18DN_MockProject_IT1_Coding_QuyPT/MockProject1/MockProject1/Dao/ViewOverallSummaryDao.cs",
+		"/D/99_Working/20151228/ChamWhitebox/Code/FR18DN_MockProject_IT1_Coding_TueTT/ManagerQuote/ManagerQuote/Dao/ServiceDao.cs",
+		"/D/99_Working/20151228/ChamWhitebox/Code/FR18DN_MockProject_IT1_Coding_TueTT/ManagerQuote/ManagerQuote/Dao/ApplicationDao.cs",
+		"/D/99_Working/20151228/ChamWhitebox/Code/FR18DN_MockProject_IT1_Coding_TueTT/ManagerQuote/ManagerQuote/Dao/QuoteDao.cs",
+		"/D/99_Working/20151228/ChamWhitebox/Code/FR18DN_MockProject_IT1_Code_NamDH11/MockCode_ver5/MockProjectFinance/MockProjectFinance/Scripts/financescript.js",
+		"/D/99_Working/20151228/ChamWhitebox/Code/FR18DN_MockProject_IT1_Code_NamDH11/MockCode_ver5/MockProjectFinance/MockProjectFinance/DAO/CreditApplicationDataDAO.cs",
+		"/D/99_Working/20151228/ChamWhitebox/Code/FR18DN_MockProject_IT1_Code_NamDH11/MockCode_ver5/MockProjectFinance/MockProjectFinance/Controllers/CreditApplicationDataController.cs",
+		"/D/99_Working/20151228/ChamWhitebox/Code/FR18DN_MockProject_IT1_Coding_QuangPM2/MockProject1/MockProject1/DAO/ReportsDAO.cs",
+		"/C/Users/TuHTT/Downloads/SinhVienIT.Net---Crack-Photoshop-CS3 - Copy/Crack Photoshop CS3/serial.nfo",
+		"/C/Users/TuHTT/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"D:\\99_Working\\20151228\\ChamWhitebox\\Code\\FR18DN_MockProject_IT1_Coding_KienHQ,<open folders>,D:\\Projects\\SandwichSorted\\HTML",
+			"D:\\99_Working\\20151228\\ChamWhitebox\\Code\\FR18DN_MockProject_IT1_Coding_KienHQ"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"gly",
+			"navbar-center",
+			"navbar",
+			"nopadding",
+			"caption-shopname",
+			"shop-caption",
+			"loginModal",
+			"shoplstNavbar",
+			"panel-body",
+			"color",
+			"container",
+			"    ",
+			"box-card",
+			"navbar-right",
+			"padding-top",
+			"container-fluid",
+			"content-desktop",
+			".content-desktop",
+			"<input type=\"text\" class=\"form-control input-search\" name=\"postcode\" placeholder=\"Post code or Town\">",
+			"content-desktop",
+			"input",
+			"center-block",
+			"input",
+			"navbar-inverse",
+			"glyphicon-search",
+			"form-group",
+			"nav",
+			"button",
+			"main",
+			"center",
+			"full",
+			"content",
+			"navbar-right",
+			"    ",
+			"Reverse table",
+			"Reserve Table",
+			"carouselButtons",
+			"Reserve Table",
+			"reversation",
+			"Corporate Leadership",
+			"Meet",
+			".7z",
+			".zip",
+			"D:\\99_Working\\Fresher23\\Fresher23DN_CNU_Final\\CNU_FinalTest_",
+			"D:\\99_Working\\Fresher23\\Fresher23DN_CNU_Final\\CNU_FinalTes_",
+			"D:\\99_Working\\Fresher23\\Fresher23DN_CNU_Final\\CNU_Final_",
+			": ",
+			"GetAppicationDetailsInformation()\nGetAppicationDetailsInformation()\nGetAppicationDetailsInformation",
+			"PersonalDetailsView",
+			"GetForbiddenList",
+			"GetForbiddenList()\n",
+			"GetErrorReport",
+			"getReports"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"image-caption-shop",
+			"caption-shopname",
+			"\\t",
+			"div",
+			"\\t",
+			"",
+			"_Meeting "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "SWS_Design.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 197.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,337 @@
+﻿.container {
+	width: 100%;
+}
+
+.body-home {
+
+	/* Location of the image */
+	background-image: url(../images/home_bg.jpg);
+
+	background-color: #6699cc;
+
+	background-blend-mode: multiply;
+
+	/* Image is centered vertically and horizontally at all times */
+	background-position: center center;
+
+	/* Image doesn't repeat */
+	background-repeat: no-repeat;
+
+	/* This is what makes the background image rescale based on its container's size */
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+
+	/* Makes the image fixed in the viewport so that it doesn't move when 
+	 the content height is greater than the image height */
+	background-attachment: fixed;
+
+	display: block;
+
+}
+
+/* For mobile devices */
+@media only screen and (max-width: 767px) {
+	.body-home {
+
+		/* The file size of this background image is 93% smaller
+		* to improve page load speed on mobile internet connections */
+		background-image: url(../images/home_bg_mb.jpg);
+	}
+}
+
+/** For top NavBar **/
+.navbar-default {
+	background-color:transparent !important;
+	border-color:transparent;
+	background-image:none;
+	box-shadow:none;
+	color: #FFFFFF;
+}
+
+.navbar .navbar-nav >li > a {
+	color: #FFFFFF;
+}
+
+.navbar .navbar-nav >li > a:hover {
+	color: #99c2ff;
+}
+
+.navbar-brand {
+	padding-top: 10px;
+}
+
+.footer {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.footer-content {
+	padding-top: 8px;
+	min-height: 50px;
+}
+
+.footer-content:not(:last-child) {
+	border-right: 1px solid #70726F;
+}
+
+.footer-item {
+	display: block;
+	text-align: center;
+	word-wrap: break-word;
+}
+
+.footer-icon {
+	font-size: 15px;
+	color: #005379;
+}
+
+/* The side navigation menu */
+.sidenav {
+	height: 100%;
+	width: 0;
+	top: 0px;
+	position: fixed;
+	z-index: 1;
+	right: 0;
+	background-color: #FFFFFF;
+	overflow-x: hidden;
+	transition: 0.2s;
+	padding-top: 60px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+	padding: 8px 8px 8px 30px;
+	text-decoration: none;
+	font-size: 16px;
+	color: #818181;
+	display: block;
+	transition: 0.2s
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+	color: #6699cc;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+
+.boxcard {
+	padding-top: 80px;
+	padding-bottom: 90px;
+}
+
+.panel {
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;
+	-webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;
+	-moz-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;
+}
+
+.login-box {
+	top: 70px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	vertical-align: middle;
+	background-color: #FFFFFF;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-width: 767px) {
+	.container {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.sidenav {
+		padding-top: 15px;
+	}
+	.sidenav a {
+		font-size: 18px;
+	}
+	.boxcard {
+		padding-top: 60px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.panel {
+		box-shadow: none;
+		-webkit-box-shadow:none;
+		-moz-box-shadow:none;
+
+	}
+	.login-box {
+		top: 50px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
+.row-logo {
+	padding-top: 60px;
+}
+
+.row-content {
+	color: #FFFFFF;
+	padding-top: 15px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.row-searchbox {
+	padding-top: 5px;
+	text-align: center;
+}
+
+.glyphicon-search-home {
+	color: #FFFFFF !important;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+
+.input-group-addon {
+	background-color: #FFFFFF;
+	border-radius: 0;
+	border-right: 0 solid transparent;
+}
+
+.input-search {
+	border-left: 0 solid transparent;
+	width: 300px !important;
+}
+
+.input-search[type="text"]:focus {
+	border-color: #cccccc;
+	outline: 0 none;
+}
+
+.glyphicon-search {
+	color: #8c8c8c;
+}
+
+.navbar-back {
+	vertical-align: middle;
+	color: #005378;
+}
+
+#modal-login {
+	top: 50px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.btn {
+	border-radius: 0;
+}
+
+.form-control { 
+	border-radius: 0;
+	box-shadow: none !important;
+	-webkit-box-shadow: none;
+	outline: none;
+}
+
+/** Common **/
+.navbar-inverse {
+	background-color: #10A7F1;
+	background-image: none;
+	border-color: #10A7F1;
+}
+
+.input-common {
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	padding: 2px;
+}
+
+/* TOP NAVBAR COMMON */
+
+.navbar-control-search {
+	width: 350px !important;
+	border-left: 0;
+}
+
+.navbar-control-search[type="text"]:focus {
+	border-color: #cccccc;
+	outline: 0 none;
+}
+
+
+/* SEARCHLIST.html start here */
+.navbar-shoplist {
+	top: 51px;
+	bottom: 0;
+	left: 0;
+	z-index: 1000;
+	padding-right: 0;
+	padding-left: 0;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.navbar-shoplist-heading {
+	padding: 10px 15px;
+	border-radius: 0;
+	font-weight: bold;
+	border-right: 1px solid #DDDDDD;
+}
+
+.list-group .list-group-item {
+	border-radius: 0;
+}
+
+.list-group-item {
+	background-color: #f9f9f9;
+}
+
+.list-group > li:first-child {
+	border-top: 0;
+}
+
+.list-group > li:last-child {
+	border-bottom: 0;
+}
+
+.image-caption-shop {
+	padding-top: 3px;
+	text-align: center;
+	vertical-align: middle;
+	color: #8c8c8c;
+}
+
+.shop-collection {
+	padding-top: 1px;
+	padding-bottom: 1px;
+	color: #ff9900;
+}
+
+.btn-toggle-shoplist {
+	position: absolute;
+	top: 51px;
+	left: -1px;
+	padding-top: 10px;
+	width: 25px;
+	height: 40px;
+	border: 1px solid #DDDDDD;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.16), 0 2px 3px 0 rgba(0, 0, 0, 0.12);
+}
+
+.main-map {
+	bottom: 0;
+	border-left: 1px solid;
+
+}
+
+/* SEARCHLIST.html end here */
