@@ -31,6 +31,15 @@
 
 }
 
+.container-box {
+	padding-top: 100px;
+	padding-bottom: 70px;
+}
+
+.row-logo {
+	padding-top: 60px;
+}
+
 /* For mobile devices */
 @media only screen and (max-width: 767px) {
 	.body-home {
@@ -48,8 +57,8 @@
 		font-size: 18px;
 	}
 
-	.boxcard {
-		padding-top: 60px;
+	.container-box {
+		padding-top: 51px;
 		padding-left: 0;
 		padding-right: 0;
 	}
@@ -73,16 +82,7 @@
 
 }
 
-/* iPads Pro and desktop (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) {
-    /* Styles */
-    .row-logo {
-	padding-top: 60px;
-	}
-}
-
-/** For top NavBar **/
+/** For top NavBar common **/
 .navbar-default {
 	background-color:transparent !important;
 	border-color:transparent;
@@ -101,6 +101,7 @@ and (min-device-width : 768px) {
 
 .navbar-brand {
 	padding-top: 10px;
+	color: #FFFFFF;
 }
 
 .footer {
@@ -126,12 +127,6 @@ and (min-device-width : 768px) {
 .footer-icon {
 	font-size: 15px;
 	color: #005379;
-}
-
-
-.boxcard {
-	padding-top: 80px;
-	padding-bottom: 90px;
 }
 
 .panel {
@@ -299,9 +294,21 @@ and (min-device-width : 768px) {
 
 /* NavBar in left side END HERE */
 
+.btn-back {
+	float:left;
+	padding:15px;
+	display:inline-block;
+	color: #005278;
+	font-size:20px;
+}
 
-.navbar-text {
+.navbar-shopname {
+	width: 100%;
+	padding-top: 18px;
+	padding-left: 30px;
 	color: #FFFFFF;
+	font-size: 18px;
+	display: table-cell;
 }
 
 .main-map {
@@ -356,3 +363,13 @@ and (min-device-width : 768px) {
 	margin-left: 50px;
 }
 /* Navbar in th right side END HERE */
+
+
+.nopadding {
+	padding: 0;
+}
+
+.nopadding-right-left {
+	padding-right: 0;
+	padding-left: 0;
+}
