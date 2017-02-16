@@ -39,6 +39,47 @@
 		* to improve page load speed on mobile internet connections */
 		background-image: url(../images/home_bg_mb.jpg);
 	}
+
+	.sidenav {
+		padding-top: 15px;
+	}
+
+	.sidenav a {
+		font-size: 18px;
+	}
+
+	.boxcard {
+		padding-top: 60px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.panel {
+		box-shadow: none;
+		-webkit-box-shadow:none;
+		-moz-box-shadow:none;
+
+	}
+
+	.login-box {
+		top: 50px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.row-logo {
+		padding-top: 30px;
+	}
+
+}
+
+/* iPads Pro and desktop (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) {
+    /* Styles */
+    .row-logo {
+	padding-top: 60px;
+	}
 }
 
 /** For top NavBar **/
@@ -87,43 +128,6 @@
 	color: #005379;
 }
 
-/* The side navigation menu */
-.sidenav {
-	height: 100%;
-	width: 0;
-	top: 0px;
-	position: fixed;
-	z-index: 1;
-	right: 0;
-	background-color: #FFFFFF;
-	overflow-x: hidden;
-	transition: 0.2s;
-	padding-top: 60px;
-}
-
-/* The navigation menu links */
-.sidenav a {
-	padding: 8px 8px 8px 30px;
-	text-decoration: none;
-	font-size: 16px;
-	color: #818181;
-	display: block;
-	transition: 0.2s
-}
-
-/* When you mouse over the navigation links, change their color */
-.sidenav a:hover, .offcanvas a:focus{
-	color: #6699cc;
-}
-
-/* Position and style the close button (top right corner) */
-.sidenav .closebtn {
-	position: absolute;
-	top: 15px;
-	right: 15px;
-	font-size: 36px;
-	margin-left: 50px;
-}
 
 .boxcard {
 	padding-top: 80px;
@@ -142,40 +146,6 @@
 	padding-bottom: 30px;
 	vertical-align: middle;
 	background-color: #FFFFFF;
-}
-
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-width: 767px) {
-	.container {
-		padding-left: 0px;
-		padding-right: 0px;
-	}
-	.sidenav {
-		padding-top: 15px;
-	}
-	.sidenav a {
-		font-size: 18px;
-	}
-	.boxcard {
-		padding-top: 60px;
-		padding-left: 0;
-		padding-right: 0;
-	}
-	.panel {
-		box-shadow: none;
-		-webkit-box-shadow:none;
-		-moz-box-shadow:none;
-
-	}
-	.login-box {
-		top: 50px;
-		padding-left: 15px;
-		padding-right: 15px;
-	}
-}
-
-.row-logo {
-	padding-top: 60px;
 }
 
 .row-content {
@@ -203,8 +173,8 @@
 }
 
 .input-search {
-	border-left: 0 solid transparent;
-	width: 300px !important;
+	border-left: 0;
+	width: 300px;
 }
 
 .input-search[type="text"]:focus {
@@ -266,8 +236,7 @@
 	outline: 0 none;
 }
 
-
-/* SEARCHLIST.html start here */
+/* NavBar in left side START HERE */
 .navbar-shoplist {
 	top: 51px;
 	bottom: 0;
@@ -328,6 +297,9 @@
 	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.16), 0 2px 3px 0 rgba(0, 0, 0, 0.12);
 }
 
+/* NavBar in left side END HERE */
+
+
 .navbar-text {
 	color: #FFFFFF;
 }
@@ -337,8 +309,19 @@
 	border-left: 1px solid;
 }
 
+/* Navbar in th right side START HERE */
+
+/* for common screen */
 .navbar-home {
+	top: 0px;
+}
+
+/* for Home screen */
+.navbar-main {
 	top: 51px;
+}
+
+.navbar-main, .navbar-home {
 	right: 0;
 	bottom: 0;
 	width: 0;
@@ -350,7 +333,7 @@
 }
 
 /* The navigation menu links */
-.navbar-home a {
+.navbar-main a, .navbar-home a {
 	padding: 8px 8px 8px 30px;
 	text-decoration: none;
 	font-size: 16px;
@@ -360,19 +343,16 @@
 }
 
 /* When you mouse over the navigation links, change their color */
-.navbar-home a:hover {
+.navbar-main a:hover, .navbar-home a:hover {
 	color: #10A7F1;
 }
 
 /* Position and style the close button (top right corner) */
-.navbar-home .closebtn {
+.navbar-main .closebtn, .navbar-home .closebtn {
 	position: absolute;
 	top: 0px;
 	right: 15px;
 	font-size: 36px;
 	margin-left: 50px;
 }
-
-
-
-/* SEARCHLIST.html end here */
+/* Navbar in th right side END HERE */
