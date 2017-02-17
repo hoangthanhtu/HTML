@@ -36,6 +36,11 @@
 	background-color: #F9F9F9;
 }
 
+.container-box-shop {
+	padding-right: 70px;
+	padding-left: 70px;
+}
+
 .row-logo {
 	padding-top: 60px;
 }
@@ -423,7 +428,7 @@
 
 
 .breadcrumb {
-	padding-top: 100px;
+	padding-top: 80px;
 	padding-right: 100px;
 	padding-left: 100px;
 }
