@@ -33,6 +33,7 @@
 
 .container-box {
 	padding-top: 100px;
+	background-color: #F9F9F9;
 }
 
 .row-logo {
@@ -421,3 +422,14 @@
 /* Navbar in th right side END HERE */
 
 
+.breadcrumb {
+	padding-top: 100px;
+	padding-right: 100px;
+	padding-left: 100px;
+}
+
+.breadcrumb > li + li:before {
+   color: #CCCCCC;
+   content: "> ";
+   padding: 0 5px;
+}
