@@ -22,7 +22,7 @@
 		<![endif]-->
 	</head>
 
-	<body>
+	<body class="body-common">
 		<nav class="navbar navbar-inverse navbar-fixed-top">
 			<div class="container-fluid">
 				<div class="navbar-header hidden-sm hidden-xs">
@@ -79,16 +79,16 @@
 					<div class="panel-body">
 						<form>
 							<div class="form-group">
-								<input type="text" class="form-control input-common" id="email" placeholder="Sean Flood">
+								<input type="text" class="form-control input-common form-control-gray" id="email" placeholder="Sean Flood">
 							</div>
 							<div class="form-group">
-								<input type="email" class="form-control input-common" id="email" placeholder="Email">
+								<input type="email" class="form-control input-common form-control-gray" id="email" placeholder="Email">
 							</div>
 							<div class="form-group">
-								<input type="password" class="form-control input-common" id="password" placeholder="Password">
+								<input type="password" class="form-control input-common form-control-gray" id="password" placeholder="Password">
 							</div>
 							<div class="form-group">
-								<input type="tel" class="form-control input-common" id="telephone" placeholder="01483 123 4567">
+								<input type="tel" class="form-control input-common form-control-gray" id="telephone" placeholder="01483 123 4567">
 							</div>
 						</form>
 					</div>
@@ -115,18 +115,13 @@
 				</div>
 			</div>
 		</footer>
-		
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery-3.1.1.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+
 		<script type="text/javascript">
-
-			function openShopNav() {
-				var navbarShoplist = document.getElementById("navbar-shoplist");
-
-				if (navbarShoplist.style.display === 'none') {
-					navbarShoplist.style.display = 'block';
-				} else {
-					navbarShoplist.style.display = 'none';
-				}
-			}
 
 			/* Set the width of the side navigation to 250px */
 			function openRightNav() {
@@ -139,10 +134,5 @@
 			}
 
 		</script>
-
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="js/jquery-3.1.1.min.js"></script>
-		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="js/bootstrap.min.js"></script>
 	</body>
 </html>
