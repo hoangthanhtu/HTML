@@ -82,8 +82,10 @@
 									<img src="images/rsz_sw1.png" class="media-object img-rounded" alt="Sample Image">
 								</a>
 								<div class="image-caption-shop">
-									<span class="glyphicon glyphicon-map-marker"></span>
-									<small>0.5min</small>
+									<a href="javascript:searchAddress('CM14 4SR', map);">
+										<span class="glyphicon glyphicon-map-marker"></span>
+										<small>0.5min</small>
+									</a>
 								</div>
 							</div>
 							<div class="media-body">
@@ -101,8 +103,10 @@
 									<img src="images/rsz_sw2.png" class="media-object img-rounded" alt="Sample Image">
 								</a>
 								<div class="image-caption-shop">
-									<span class="glyphicon glyphicon-map-marker"></span>
-									<small>0.5min</small>
+									<a href="javascript:searchAddress('CM14 5LF', map);">
+										<span class="glyphicon glyphicon-map-marker"></span>
+										<small>0.8min</small>
+									</a>
 								</div>
 							</div>
 							<div class="media-body">
@@ -212,6 +216,9 @@
 					</ul>
 				</div>
 				<div class="col-md-9 main-map hidden-sm hidden-xs">
+					<div id="map" class="map-shop nopadding-right-left">
+							
+					</div>
 					<div class="btn-toggle-shoplist" onclick="openShopNav()">
 						<span class="glyphicon glyphicon-triangle-left"></span>
 					</div>
@@ -224,29 +231,61 @@
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="js/bootstrap.min.js"></script>
 
+		<script src="js/sws.js"></script>
+
 		<script type="text/javascript">
 
-			function openShopNav() {
-				var navbarShoplist = document.getElementById("navbar-shoplist");
+			function swsMap() {
+				var shopLocation = new google.maps.LatLng(51.5073509, -0.12775829999998223);
+				var mapCanvas = document.getElementById("map");
 
-				if (navbarShoplist.style.display === 'none') {
-					navbarShoplist.style.display = 'block';
-				} else {
-					navbarShoplist.style.display = 'none';
+				var mapProperties = {
+					center: shopLocation,
+					zoom: 16,
+					panControl: false,
+					mapTypeId: google.maps.MapTypeId.ROADMAP
 				}
+
+				var map = new google.maps.Map(mapCanvas, mapProperties);
+
+				// Set the post code of the first shop in list
+				searchAddress("CM14 5LF", map);
 			}
 
-			/* Set the width of the side navigation to 250px */
-			function openRightNav() {
-				document.getElementById("navbar-home").style.width = "250px";
+			function searchAddress(shopPostcode, resultsMap) {
+
+				var geocoder = new google.maps.Geocoder();
+				geocoder.geocode({'address': shopPostcode}, function(results, status) {
+
+					if (status == google.maps.GeocoderStatus.OK) {
+
+						// resultsMap.setCenter(results[0].geometry.location);
+						var latitude = results[0].geometry.location.lat();
+
+             			var longitude = results[0].geometry.location.lng();
+
+             			shopLocation = new google.maps.LatLng(latitude, longitude);
+
+             			resultsMap.setCenter(shopLocation);
+
+						var marker = new google.maps.Marker({
+              				map: resultsMap,
+              				position: results[0].geometry.location
+            			});
+
+					} else {
+
+						alert('Geocode was not successful for the following reason: ' + status);
+					}
+				});
 			}
 
-			/* Set the width of the side navigation to 0 */
-			function closeRightNav() {
-				document.getElementById("navbar-home").style.width = "0";
-			}
+			// google.maps.event.addDomListener(window, 'load', swsMap);
+
 
 		</script>
+
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDab38v1LEO7Kn6Cc7oUgdGdvqooLHP9rg&callback=swsMap"></script>
 
 	</body>
 </html>

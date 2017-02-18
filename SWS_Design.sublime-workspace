@@ -4,16 +4,44 @@
 		"selected_items":
 		[
 			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"col",
+				"col-md-8"
+			],
+			[
+				"pading",
+				"padding-right"
+			],
+			[
+				"tabl",
+				"table-cell"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
 				"hi",
 				"hidden-xs"
 			],
 			[
 				"bor",
 				"border-left"
-			],
-			[
-				"pad",
-				"padding-right"
 			],
 			[
 				"na",
@@ -26,10 +54,6 @@
 			[
 				"wid",
 				"width"
-			],
-			[
-				"pading",
-				"padding-left"
 			],
 			[
 				"no",
@@ -58,10 +82,6 @@
 			[
 				"border",
 				"border-width"
-			],
-			[
-				"col",
-				"col-sm-6"
 			],
 			[
 				"to",
@@ -106,10 +126,6 @@
 			[
 				"fo",
 				"Footer"
-			],
-			[
-				"padd",
-				"padding-bottom"
 			],
 			[
 				"so",
@@ -196,10 +212,6 @@
 				"overflow-x"
 			],
 			[
-				"font",
-				"font-family"
-			],
-			[
 				"lo",
 				"loginModal"
 			],
@@ -240,10 +252,6 @@
 				"row-content"
 			],
 			[
-				"di",
-				"div\tTag"
-			],
-			[
 				"l",
 				"li\tTag"
 			],
@@ -272,28 +280,10 @@
 	"buffers":
 	[
 		{
-			"file": "css/site.css",
+			"file": "restaurantinfo.html",
 			"settings":
 			{
-				"buffer_size": 6355,
-				"encoding": "UTF-8 with BOM",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "searchlist.html",
-			"settings":
-			{
-				"buffer_size": 8881,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 5352,
+				"buffer_size": 9391,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -347,23 +337,22 @@
 	},
 	"expanded_folders":
 	[
-		"/D/TuHTT/Working/SandwichSorted/HTML",
-		"/D/TuHTT/Working/SandwichSorted/HTML/css"
+		"/D/Projects/SandwichSorted/HTML",
+		"/D/Projects/SandwichSorted/HTML/css",
+		"/D/Projects/SandwichSorted/HTML/js"
 	],
 	"file_history":
 	[
-		"/D/TuHTT/Working/SandwichSorted/HTML/account.html",
-		"/D/TuHTT/Working/SandwichSorted/HTML/login.html",
-		"/D/TuHTT/Working/SandwichSorted/backup/HTML/css/site.css",
-		"/D/TuHTT/Working/SandwichSorted/HTML/css/sitestyle.css",
-		"/D/Projects/SandwichSorted/HTML/settings.html",
-		"/D/Projects/SandwichSorted/HTML/css/site.css",
 		"/D/Projects/SandwichSorted/HTML/searchlist.html",
-		"/D/Projects/SandwichSorted/HTML/login.html",
 		"/D/Projects/SandwichSorted/HTML/index.html",
+		"/D/Projects/SandwichSorted/HTML/css/site.css",
+		"/D/Projects/SandwichSorted/HTML/account.html",
+		"/D/Projects/SandwichSorted/HTML/restaurantinfo.html",
+		"/D/Projects/SandwichSorted/HTML/settings.html",
+		"/D/Projects/SandwichSorted/HTML/README.md",
+		"/D/Projects/SandwichSorted/HTML/login.html",
 		"/D/Projects/SandwichSorted/HTML1/HTML/css/site.css",
 		"/D/Projects/SandwichSorted/HTML/index1.html",
-		"/D/Projects/SandwichSorted/HTML/account.html",
 		"/D/Projects/SandwichSorted/HTML/css/bootstrap-theme.min.css",
 		"/D/Projects/SandwichSorted/HTML/css/bootstrap.min.css",
 		"/D/TuHTT/Working/Bootstrap Template/pluto-material-design-html-app-landing-page/index.html",
@@ -459,7 +448,7 @@
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 36.0
 	},
 	"find_in_files":
 	{
@@ -475,12 +464,24 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"glyphicon-search-gray",
+			"glyphicon-search",
+			"contain",
+			"row-logo",
+			"container-box",
+			"panel",
+			"container-box",
+			"boxcard",
 			"navbar-text",
-			"input-group",
-			"form",
-			"row",
+			"navbar-brand",
+			"input-group-addon",
 			"input-search",
-			"logo",
+			"navbar-right-home",
+			"navbar-right",
+			"navbar-home",
+			"navbar-right",
+			"center-block",
+			"boxcard",
 			"gly",
 			"navbar-center",
 			"navbar",
@@ -537,10 +538,13 @@
 		],
 		"highlight": true,
 		"in_selection": false,
-		"preserve_case": false,
+		"preserve_case": true,
 		"regex": false,
 		"replace_history":
 		[
+			"container-box",
+			"navbar-main",
+			"navbar-right-home",
 			"image-caption-shop",
 			"caption-shopname",
 			"\\t",
@@ -563,89 +567,30 @@
 			[
 				{
 					"buffer": 0,
-					"file": "css/site.css",
+					"file": "restaurantinfo.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6355,
+						"buffer_size": 9391,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5645,
-								5645
+								3442,
+								3442
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 5890.0,
+						"translation.y": 1485.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "searchlist.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8881,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1574,
-								1574
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 279.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5352,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4177,
-								4177
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1951.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
 					"type": "text"
 				}
 			]
