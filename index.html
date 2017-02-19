@@ -25,13 +25,13 @@
 
 		<div id="sideNavRight" class="navbar-home">
 			<a href="#" class="closebtn" onclick="closeNav()">&times;</a>
-			<a href="#"><i class="fa fa-search" aria-hidden="true"></i> Search cafes</a>
+			<a href="searchlist.html"><i class="fa fa-search" aria-hidden="true"></i> Search cafes</a>
 			<a href="#"><i class="fa fa-bars" aria-hidden="true"></i> My Orders</a>
 			<a href="settings.html"><i class="fa fa-cog" aria-hidden="true"></i> Settings</a>
 			<a href="account.html"><i class="fa fa-user" aria-hidden="true"></i> My Account</a>
 			<a href="#">And Another link</a>
 			<hr style="width: 80%">
-			<a href="#"><i class="fa fa-user" aria-hidden="true"></i> Login</a>
+			<a href="login.html"><i class="fa fa-user" aria-hidden="true"></i> Login</a>
 		</div>
 
 		<nav class="navbar navbar-default navbar-fixed-top" id="navbarTop">
@@ -39,7 +39,7 @@
 				<div class="navbar-collapse collapse" id="navbar">
 					<ul class="nav navbar-nav navbar-right">
 						<li>
-							<a href="#" id="lnkLogin">Login</a>
+							<a href="login.html" id="lnkLogin">Login</a>
 						</li>
 						<li>
 							<a href="#" onclick="openNav()">Menu <i class="fa fa-bars"></i></a>
@@ -49,43 +49,6 @@
 			</div>
 		</nav>
 		
-		<!-- Modal -->
-		<div class="modal fade" id="modal-login" role="dialog">
-			<div class="modal-dialog">
-		
-				<!-- Modal content-->
-				<div class="modal-content">
-					<div class="modal-body">
-						<p class="center-block">
-						<img src="images/home_logo_blue.png" alt="SandwichSorted">
-						</p>
-						<a class="btn btn-block btn-social btn-facebook btn-lg">
-							<i class="fa fa-facebook"></i> CONTINUE WITH FACEBOOK
-						</a>
-						<p><center>OR</center></p>
-						<form role="form horizontal">
-							<div class="form-group">
-								<label for="email">Email</label>
-								<input type="email" id="email" class="form-control" placeholder="Email">
-							</div>
-							<div class="form-group">
-								<a class="pull-right" href="#">Forgot password?</a>
-								<label for="password">Password</label>
-								<input type="password" id="password" class="form-control" placeholder="Password">
-							</div>
-							<div class="form-group">
-								<button type="submit" class="btn btn-info btn-lg btn-block">LOG IN WITH EMAIL</button>
-							</div>
-							<div class="text-center">
-								<a href="#">SIGN UP</a>
-							</div>
-							
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-
 		<div class="container">
 
 			<!-- Logo -->
@@ -122,7 +85,7 @@
 					</div>
 					<div class="col-md-2 col-xs-12">
 						<div class="form-group">
-							<a href="#" class="btn btn-primary col-xs-12"><span class="glyphicon glyphicon-search glyphicon-search-home hidden-sm hidden-xs"></span> SEARCH</a>
+							<a href="searchlist.html" class="btn btn-primary col-xs-12"><span class="glyphicon glyphicon-search glyphicon-search-home hidden-sm hidden-xs"></span> SEARCH</a>
 						</div>
 					</div>
 				</form>
@@ -136,17 +99,6 @@
 		<script src="js/bootstrap.min.js"></script>
 
 		<script src="js/sws.js"></script>
-
-		<script type="text/javascript">
-
-			$(document).ready(function() {
-				$("#lnkLogin").click(function() {
-					$('#modal-login').modal('show');
-				});
-			});
-
-
-		</script>
 
 	</body>
 </html>
