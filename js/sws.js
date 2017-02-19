@@ -24,18 +24,15 @@ function closeRightNav() {
 
 function openShopNav() {
 	var navbarShoplist = document.getElementById("navbar-shoplist");
-	// var mapWidth = $("#map").width();
-	// var nbShoplstWidth = $("#navbar-shoplist").width();
-
-	// console.log(mapWidth);
-	// console.log(nbShoplstWidth);
 
 	if (navbarShoplist.style.display === 'none') {
+
 		navbarShoplist.style.display = 'block';
-		// $("#mapContent").toggleClass("fullscreen");
 
 	} else {
 		
 		navbarShoplist.style.display = 'none';
 	}
+
 }
+

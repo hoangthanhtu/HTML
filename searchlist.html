@@ -82,7 +82,7 @@
 									<img src="images/rsz_sw1.png" class="media-object img-rounded" alt="Sample Image">
 								</a>
 								<div class="image-caption-shop">
-									<a href="javascript:searchAddress('CM14 4SR', map);">
+									<a href="javascript:searchAddress('CM14 4SR');">
 										<span class="glyphicon glyphicon-map-marker"></span>
 										<small>0.5min</small>
 									</a>
@@ -103,7 +103,7 @@
 									<img src="images/rsz_sw2.png" class="media-object img-rounded" alt="Sample Image">
 								</a>
 								<div class="image-caption-shop">
-									<a href="javascript:searchAddress('CM14 5LF', map);">
+									<a href="javascript:searchAddress('CM14 5LF');">
 										<span class="glyphicon glyphicon-map-marker"></span>
 										<small>0.8min</small>
 									</a>
@@ -124,8 +124,10 @@
 									<img src="images/rsz_sw3.png" class="media-object img-rounded" alt="Sample Image">
 								</a>
 								<div class="image-caption-shop">
-									<span class="glyphicon glyphicon-map-marker"></span>
-									<small>0.5min</small>
+									<a href="javascript:searchAddress('CM14 4RX');">
+										<span class="glyphicon glyphicon-map-marker"></span>
+										<small>0.5min</small>
+									</a>
 								</div>
 							</div>
 							<div class="media-body">
@@ -143,8 +145,10 @@
 									<img src="images/rsz_sw4.png" class="media-object img-rounded" alt="Sample Image">
 								</a>
 								<div class="image-caption-shop">
-									<span class="glyphicon glyphicon-map-marker"></span>
-									<small>0.5min</small>
+									<a href="javascript:searchAddress('CM22 7AS');">
+										<span class="glyphicon glyphicon-map-marker"></span>
+										<small>0.5min</small>
+									</a>
 								</div>
 							</div>
 							<div class="media-body">
@@ -162,8 +166,10 @@
 									<img src="images/rsz_sw5.png" class="media-object img-rounded" alt="Sample Image">
 								</a>
 								<div class="image-caption-shop">
-									<span class="glyphicon glyphicon-map-marker"></span>
-									<small>0.5min</small>
+									<a href="javascript:searchAddress('CM14 4SR');">
+										<span class="glyphicon glyphicon-map-marker"></span>
+										<small>0.5min</small>
+									</a>
 								</div>
 							</div>
 							<div class="media-body">
@@ -181,8 +187,10 @@
 									<img src="images/rsz_sw6.png" class="media-object img-rounded" alt="Sample Image">
 								</a>
 								<div class="image-caption-shop">
-									<span class="glyphicon glyphicon-map-marker"></span>
-									<small>0.5min</small>
+									<a href="javascript:searchAddress('CM2 0DG');">
+										<span class="glyphicon glyphicon-map-marker"></span>
+										<small>0.5min</small>
+									</a>
 								</div>
 							</div>
 							<div class="media-body">
@@ -200,8 +208,10 @@
 									<img src="images/rsz_sw1.png" class="media-object img-rounded" alt="Sample Image">
 								</a>
 								<div class="image-caption-shop">
-									<span class="glyphicon glyphicon-map-marker"></span>
-									<small>0.5min</small>
+									<a href="javascript:searchAddress('CM14 5LF');">
+										<span class="glyphicon glyphicon-map-marker"></span>
+										<small>0.5min</small>
+									</a>
 								</div>
 							</div>
 							<div class="media-body">
@@ -216,7 +226,7 @@
 					</ul>
 				</div>
 				<div class="col-md-9 main-map hidden-sm hidden-xs" id="mapContent">
-					<div id="map" class="map-shop nopadding-right-left">
+					<div id="map-shop" class="nopadding-right-left">
 							
 					</div>
 					<div class="btn-toggle-shoplist" onclick="openShopNav()">
@@ -231,15 +241,18 @@
 		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="js/bootstrap.min.js"></script>
 
-		<script src="js/sws.js"></script>
-
 		<script type="text/javascript">
 
-			$( document ).ready(function() {
+			var navbarLeftWidth;
+			var mapContentWidth;
+			var map;
 
+			$(document).ready(function() {
+
+				// Initial for mapContent height
 				function setboxHeight() {
 					var nbShoplstHeight = $("#navbar-shoplist").height();
-					$("#map").height(nbShoplstHeight);
+					$("#map-shop").height(nbShoplstHeight);
 				}
 
 				setboxHeight();
@@ -248,12 +261,19 @@
 					setboxHeight();
 				});
 
+				// Store the width of left navbar and mapContent
+				navbarLeftWidth = $("#navbar-shoplist").width();
+				mapContentWidth = $("#mapContent").width();
+
+				console.log("Initial of Left Navbar: " + navbarLeftWidth);
+				console.log("Initial of Map Content: " + mapContentWidth);
+
 			});
 
 
 			function swsMap() {
 				var shopLocation = new google.maps.LatLng(51.5073509, -0.12775829999998223);
-				var mapCanvas = document.getElementById("map");
+				var mapCanvas = document.getElementById("map-shop");
 
 				var mapProperties = {
 					center: shopLocation,
@@ -263,13 +283,14 @@
 					mapTypeId: google.maps.MapTypeId.ROADMAP
 				}
 
-				var map = new google.maps.Map(mapCanvas, mapProperties);
+				map = new google.maps.Map(mapCanvas, mapProperties);
 
 				// Set the post code of the first shop in list
-				searchAddress("CM14 5LF", map);
+				searchAddress("CM14 5LF");
+
 			}
 
-			function searchAddress(shopPostcode, resultsMap) {
+			function searchAddress(shopPostcode) {
 
 				var geocoder = new google.maps.Geocoder();
 				geocoder.geocode({'address': shopPostcode}, function(results, status) {
@@ -283,10 +304,10 @@
 
              			shopLocation = new google.maps.LatLng(latitude, longitude);
 
-             			resultsMap.setCenter(shopLocation);
+             			map.setCenter(shopLocation);
 
 						var marker = new google.maps.Marker({
-              				map: resultsMap,
+              				map: map,
               				position: results[0].geometry.location
             			});
 
@@ -301,6 +322,10 @@
 
 
 		</script>
+
+
+
+		<script src="js/sws.js"></script>
 
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDab38v1LEO7Kn6Cc7oUgdGdvqooLHP9rg&callback=swsMap"></script>
 
