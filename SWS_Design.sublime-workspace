@@ -4,12 +4,72 @@
 		"selected_items":
 		[
 			[
-				"latl",
-				"latlng"
+				"hi",
+				"hidden-xs"
 			],
 			[
 				"pad",
 				"padding-left"
+			],
+			[
+				"o",
+				"openShopNav"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"hid",
+				"hidden-sm"
+			],
+			[
+				"h",
+				"hidden"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"pading",
+				"padding-left"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"padin",
+				"padding-right"
+			],
+			[
+				"padding-",
+				"padding-bottom"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"latl",
+				"latlng"
 			],
 			[
 				"text",
@@ -22,10 +82,6 @@
 			[
 				"onc",
 				"onclick\tAttr"
-			],
-			[
-				"ma",
-				"mapCanvas"
 			],
 			[
 				"Map",
@@ -48,14 +104,6 @@
 				"visible-md"
 			],
 			[
-				"hi",
-				"hidden-xs"
-			],
-			[
-				"margin",
-				"margin-bottom"
-			],
-			[
 				"top",
 				"top"
 			],
@@ -68,20 +116,8 @@
 				"padding-top"
 			],
 			[
-				"pading",
-				"padding-top"
-			],
-			[
-				"bor",
-				"border-color"
-			],
-			[
 				"op",
 				"opacity"
-			],
-			[
-				"bo",
-				"bottom"
 			],
 			[
 				"pos",
@@ -126,10 +162,6 @@
 			[
 				"shop",
 				"shoplist"
-			],
-			[
-				"back",
-				"background-color"
 			],
 			[
 				"border",
@@ -182,10 +214,6 @@
 			[
 				"border-c",
 				"border-color"
-			],
-			[
-				"wi",
-				"width"
 			],
 			[
 				"cen",
@@ -327,34 +355,16 @@
 			"file": "css/site.css",
 			"settings":
 			{
-				"buffer_size": 8922,
+				"buffer_size": 10422,
 				"encoding": "UTF-8 with BOM",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "restaurantinfo.html",
+			"file": "detailmenu.html",
 			"settings":
 			{
-				"buffer_size": 8621,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "searchlist.html",
-			"settings":
-			{
-				"buffer_size": 10062,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "js/sws.js",
-			"settings":
-			{
-				"buffer_size": 899,
+				"buffer_size": 9503,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -388,7 +398,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 416.0
+		"width": 400.0
 	},
 	"console":
 	{
@@ -414,17 +424,21 @@
 	],
 	"file_history":
 	[
-		"/D/Projects/SandwichSorted/HTML/index.html",
+		"/D/Projects/SandwichSorted/HTML/restaurantinfo.html",
 		"/D/Projects/SandwichSorted/HTML/account.html",
 		"/D/Projects/SandwichSorted/HTML/settings.html",
+		"/D/Projects/SandwichSorted/HTML/searchlist.html",
+		"/D/Projects/SandwichSorted/HTML/login.html",
+		"/D/Projects/SandwichSorted/HTML/js/sws.js",
+		"/D/Projects/SandwichSorted/Ref/postcodesex.txt",
+		"/D/Projects/SandwichSorted/Ref/startbootstrap-simple-sidebar-gh-pages/index.html",
+		"/D/Projects/SandwichSorted/Ref/startbootstrap-simple-sidebar-gh-pages/css/simple-sidebar.css",
+		"/D/Projects/SandwichSorted/HTML/index.html",
+		"/D/Projects/SandwichSorted/HTML/css/site.css",
 		"/D/Projects/SandwichSorted/HTML/js/bootstrap.min.js",
 		"/D/Projects/SandwichSorted/HTML/js/jquery-3.1.1.min.js",
-		"/D/Projects/SandwichSorted/HTML/searchlist.html",
 		"/D/TuHTT/Working/Bootstrap Template/startbootstrap-stylish-portfolio-gh-pages/index.html",
-		"/D/Projects/SandwichSorted/HTML/css/site.css",
-		"/D/Projects/SandwichSorted/HTML/restaurantinfo.html",
 		"/D/Projects/SandwichSorted/HTML/README.md",
-		"/D/Projects/SandwichSorted/HTML/login.html",
 		"/D/Projects/SandwichSorted/HTML1/HTML/css/site.css",
 		"/D/Projects/SandwichSorted/HTML/index1.html",
 		"/D/Projects/SandwichSorted/HTML/css/bootstrap-theme.min.css",
@@ -529,6 +543,7 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"D:\\Projects\\SandwichSorted\\HTML",
 			"D:\\99_Working\\20151228\\ChamWhitebox\\Code\\FR18DN_MockProject_IT1_Coding_KienHQ,<open folders>,D:\\Projects\\SandwichSorted\\HTML",
 			"D:\\99_Working\\20151228\\ChamWhitebox\\Code\\FR18DN_MockProject_IT1_Coding_KienHQ"
 		]
@@ -538,6 +553,49 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"map-shop",
+			"navbar-inverse",
+			"box-shadow",
+			"box-shadown",
+			"form-profile",
+			"list-group-item",
+			"box-shadow",
+			"panel-body",
+			"tab",
+			"tab-content-row",
+			"tab-content",
+			"tab-pane",
+			".menu.list-group",
+			"menu",
+			"tab",
+			"navbar-back",
+			"btn-back",
+			"tab-content",
+			".menu",
+			".list-group .menu",
+			"list-group",
+			"panel-body",
+			"info",
+			"<i class=\"fa fa-lg fa-angle-right pull-right aria-hidden=\"true\"></i>",
+			"list-group",
+			"mapContent",
+			"list-group",
+			"href=\"#\"",
+			"container-box-login",
+			"href=\"#\"",
+			"login",
+			"modal",
+			"href=\"#\"",
+			"navbar-in",
+			"form-control-gray",
+			" form-control-gray",
+			"panel-heading",
+			"container-box",
+			"login",
+			"login-box",
+			"login",
+			"href=\"#\"",
+			"setting",
 			"container-box",
 			"container-box-shop",
 			".container",
@@ -626,6 +684,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"",
 			"container-box",
 			"navbar-main",
 			"navbar-right-home",
@@ -646,7 +705,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -655,15 +714,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8922,
+						"buffer_size": 10422,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7344,
-								7344
+								6241,
+								6241
 							]
 						],
 						"settings":
@@ -672,56 +731,27 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 8963.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "restaurantinfo.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8621,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5123,
-								5131
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 4625.0,
+						"translation.y": 7643.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "searchlist.html",
+					"buffer": 1,
+					"file": "detailmenu.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10062,
+						"buffer_size": 9503,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9250,
-								9250
+								4400,
+								4421
 							]
 						],
 						"settings":
@@ -730,38 +760,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 5165.0,
+						"translation.y": 2086.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "js/sws.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 899,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								899,
-								899
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 72.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
 					"type": "text"
 				}
 			]

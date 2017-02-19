@@ -1,4 +1,9 @@
-﻿.container {
+﻿
+a:hover {
+	text-decoration:none;
+}
+
+.container {
 	width: 100%;
 }
 
@@ -37,10 +42,6 @@
 	background-image:none;
 	box-shadow:none;
 	color: #FFFFFF;
-}
-
-a:hover {
-   text-decoration:none;
 }
 
 .container-box {
@@ -145,6 +146,351 @@ a:hover {
 	color: #FFFFFF;
 }
 
+/* Top Navbar common START HERE */
+.navbar .navbar-nav >li > a {
+	color: #FFFFFF;
+}
+
+.navbar .navbar-nav >li > a:hover {
+	color: #99c2ff;
+}
+
+.navbar-brand {
+	padding-top: 10px;
+	color: #FFFFFF;
+}
+
+.navbar-inverse {
+	background-color: #10A7F1;
+	background-image: none;
+	border-color: #10A7F1;
+-webkit-box-shadow: 1px 1px 5px 1px rgba(135, 135, 135, 0.75);
+-moz-box-shadow:    1px 1px 5px 1px rgba(135, 135, 135, 0.75);
+box-shadow:         1px 1px 5px 1px rgba(135, 135, 135, 0.75);
+}
+
+.btn-back {
+	float:left;
+	padding:15px;
+	display:inline-block;
+	color: #005278;
+	font-size:20px;
+}
+
+.navbar-shopname {
+	width: 100%;
+	padding-top: 18px;
+	padding-left: 30px;
+	color: #FFFFFF;
+	font-size: 18px;
+	display: table-cell;
+}
+
+.navbar-control-search {
+	width: 350px !important;
+	border-left: 0;
+}
+
+.navbar-control-search[type="text"]:focus {
+	border-color: #cccccc;
+	outline: 0 none;
+}
+
+/* Top Navbar common END HERE */
+
+/** For Footer common START HERE **/
+.footer {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.footer-content {
+	padding-top: 8px;
+	min-height: 50px;
+}
+
+.footer-content:not(:last-child) {
+	border-right: 1px solid #70726F;
+}
+
+.footer-item {
+	padding-top: 3px;
+	color: #FFFFFF;
+	font-size: 10px;
+	display: block;
+	text-align: center;
+	word-wrap: break-word;
+}
+
+.footer-icon {
+	font-size: 15px;
+	color: #005379;
+}
+
+/** For Footer common END HERE **/
+
+.row-content {
+	color: #FFFFFF;
+	padding-top: 15px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.row-searchbox {
+	padding-top: 5px;
+	text-align: center;
+}
+
+.glyphicon-search-home {
+	color: #FFFFFF !important;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+
+.input-group-addon {
+	background-color: #FFFFFF;
+	border-radius: 0;
+	border-right: 0 solid transparent;
+}
+
+.input-search {
+	border-left: 0;
+	width: 300px;
+}
+
+.input-search[type="text"]:focus {
+	border-color: #cccccc;
+	outline: 0 none;
+}
+
+.glyphicon-search-gray {
+	color: #8c8c8c;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.btn {
+	border-radius: 0;
+}
+
+.form-control { 
+	border-radius: 0;
+	box-shadow: none !important;
+	-webkit-box-shadow: none;
+	outline: none;
+}
+
+/** Common **/
+
+.body-common {
+	background-color: #FAFAFA;
+}
+
+.nopadding {
+	padding: 0;
+}
+
+.nopadding-right-left {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.input-common {
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	padding: 2px;
+}
+
+/* NavBar in left side START HERE */
+.navbar-shoplist {
+	top: 51px;
+	bottom: 0;
+	left: 0;
+	z-index: 1000;
+	padding-right: 0;
+	padding-left: 0;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.navbar-shoplist-heading {
+	padding: 10px 15px;
+	border-radius: 0;
+	font-weight: bold;
+	border-right: 1px solid #DDDDDD;
+}
+
+.list-group {
+	margin-bottom: 0;
+}
+
+.list-group .list-group-item {
+	border-radius: 0;
+}
+
+.list-group-item {
+	background-color: #F9F9F9;
+	border-right: 0;
+	border-left: 0;
+}
+
+.list-group .settings > li:first-child {
+	border-top: 0;
+}
+
+.menu .list-group-item {
+	padding-right: 0;
+	padding-left: 0;
+	border-right: 0;
+	border-left: 0;
+	background-color: #FFFFFF;
+}
+
+.list-group > li:last-child {
+	border-bottom: 0;
+}
+
+.image-caption-shop {
+	padding-top: 3px;
+	text-align: center;
+	vertical-align: middle;
+	color: #8c8c8c;
+}
+
+.image-caption-shop > a {
+	text-decoration: none;
+	color: #8C8C8C;
+}
+
+.image-caption-shop > a:hover {
+	color: #ff0000;
+}
+
+.shop-collection {
+	padding-top: 1px;
+	padding-bottom: 1px;
+	color: #ff9900;
+}
+
+.btn-toggle-shoplist {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	padding-top: 10px;
+	width: 25px;
+	height: 40px;
+	border: 1px solid #DDDDDD;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.16), 0 2px 3px 0 rgba(0, 0, 0, 0.12);
+}
+
+/* NavBar in left side END HERE */
+.main-map {
+	top: 51px;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.map-shop {
+	padding-top: 15px;
+	width: 100%;
+	height: 100%;
+}
+
+/* Navbar in th right side START HERE */
+
+/* for common screen */
+.navbar-home {
+	top: 0px;
+}
+
+/* for Home screen */
+.navbar-main {
+	top: 51px;
+}
+
+.navbar-main, .navbar-home {
+	right: 0;
+	bottom: 0;
+	width: 0;
+	position: fixed;
+	z-index: 1000;
+	background-color: #f9f9f9;
+	overflow-x: hidden;
+	padding-top: 50px;
+}
+
+/* The navigation menu links */
+.navbar-main a, .navbar-home a {
+	padding: 8px 8px 8px 30px;
+	text-decoration: none;
+	font-size: 16px;
+	color: #818181;
+	display: block;
+	transition: 0.2s
+}
+
+/* When you mouse over the navigation links, change their color */
+.navbar-main a:hover, .navbar-home a:hover {
+	color: #10A7F1;
+}
+
+/* Position and style the close button (top right corner) */
+.navbar-main .closebtn, .navbar-home .closebtn {
+	position: absolute;
+	top: 0px;
+	right: 15px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+/* Navbar in th right side END HERE */
+
+.row-breadcrum {
+	padding-top: 70px;
+}
+
+.breadcrumb {
+	padding-right: 80px;
+	padding-left: 80px;
+	background-color: transparent;
+	margin-bottom: 10px;
+}
+
+.breadcrumb > li + li:before {
+   color: #CCCCCC;
+   content: "> ";
+   padding: 0 5px;
+}
+
+/* Customize Tab START HERE */
+.nav-tabs > li a { 
+    background-color:#FAFAFA; 
+    color:#C8C8C8;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+    background-color: #10A7F1;
+    color: #FFFFFF;
+    border: 1px solid #0D9EE0;
+}
+
+.tab-content-row {
+	padding-right: 30px;
+	padding-left: 30px;
+	line-height: 200%
+}
+
+.tab-content-row > div:first-child {
+	padding-top: 30px;
+}
+
+/* Customize Tab END HERE */
 
 /* For mobile devices */
 @media only screen and (max-width: 767px) {
@@ -245,6 +591,9 @@ a:hover {
 		padding-top: 30px;
 	}
 
+	.menu .list-group-item {
+		background-color: #F9F9F9;
+	}
 }
 
 /* For tablet */
@@ -270,350 +619,17 @@ a:hover {
 		-moz-box-shadow:none;
 	}
 
-	.panel-body {
+
+	.panel-account {
 		padding-right: 50px;
 		padding-left: 50px;
-		background-color: #F9F9F9;
 	}
 
 	.form-control-gray {
-		background-color: #F9F9F9;	
+		background-color: #FFFFFF;	
 	}
 
 	.form-control-gray-login {
 		background-color: #FFFFFF;
 	}
 }
-
-
-/** For top NavBar common **/
-
-.navbar .navbar-nav >li > a {
-	color: #FFFFFF;
-}
-
-.navbar .navbar-nav >li > a:hover {
-	color: #99c2ff;
-}
-
-.navbar-brand {
-	padding-top: 10px;
-	color: #FFFFFF;
-}
-
-.footer {
-	text-align: center;
-	vertical-align: middle;
-}
-
-.footer-content {
-	padding-top: 8px;
-	min-height: 50px;
-}
-
-.footer-content:not(:last-child) {
-	border-right: 1px solid #70726F;
-}
-
-.footer-item {
-	padding-top: 3px;
-	color: #FFFFFF;
-	font-size: 10px;
-	display: block;
-	text-align: center;
-	word-wrap: break-word;
-}
-
-.footer-icon {
-	font-size: 15px;
-	color: #005379;
-}
-
-.row-content {
-	color: #FFFFFF;
-	padding-top: 15px;
-	text-align: center;
-	vertical-align: middle;
-}
-
-.row-searchbox {
-	padding-top: 5px;
-	text-align: center;
-}
-
-.glyphicon-search-home {
-	color: #FFFFFF !important;
-	margin-right: 5px;
-	vertical-align: middle;
-}
-
-.input-group-addon {
-	background-color: #FFFFFF;
-	border-radius: 0;
-	border-right: 0 solid transparent;
-}
-
-.input-search {
-	border-left: 0;
-	width: 300px;
-}
-
-.input-search[type="text"]:focus {
-	border-color: #cccccc;
-	outline: 0 none;
-}
-
-.glyphicon-search-gray {
-	color: #8c8c8c;
-}
-
-.navbar-back {
-	vertical-align: middle;
-	color: #005378;
-}
-
-.text-center {
-	text-align: center;
-}
-
-.btn {
-	border-radius: 0;
-}
-
-.form-control { 
-	border-radius: 0;
-	box-shadow: none !important;
-	-webkit-box-shadow: none;
-	outline: none;
-}
-
-/** Common **/
-
-.body-common {
-	background-color: #FAFAFA;
-}
-
-.nopadding {
-	padding: 0;
-}
-
-.nopadding-right-left {
-	padding-right: 0;
-	padding-left: 0;
-}
-
-.input-common {
-	border-top: none;
-	border-right: none;
-	border-left: none;
-	padding: 2px;
-}
-
-/* Top Navbar common START HERE */
-.navbar-inverse {
-	background-color: #10A7F1;
-	background-image: none;
-	border-color: #10A7F1;
-}
-
-.btn-back {
-	float:left;
-	padding:15px;
-	display:inline-block;
-	color: #005278;
-	font-size:20px;
-}
-
-.navbar-shopname {
-	width: 100%;
-	padding-top: 18px;
-	padding-left: 30px;
-	color: #FFFFFF;
-	font-size: 18px;
-	display: table-cell;
-}
-
-.navbar-control-search {
-	width: 350px !important;
-	border-left: 0;
-}
-
-.navbar-control-search[type="text"]:focus {
-	border-color: #cccccc;
-	outline: 0 none;
-}
-
-/* Top Navbar common END HERE */
-
-/* NavBar in left side START HERE */
-.navbar-shoplist {
-	top: 51px;
-	bottom: 0;
-	left: 0;
-	z-index: 1000;
-	padding-right: 0;
-	padding-left: 0;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-}
-
-.navbar-shoplist-heading {
-	padding: 10px 15px;
-	border-radius: 0;
-	font-weight: bold;
-	border-right: 1px solid #DDDDDD;
-}
-
-.list-group {
-	margin-bottom: 0;
-}
-
-.list-group .list-group-item {
-	border-radius: 0;
-}
-
-.list-group-item {
-	background-color: #f9f9f9;
-}
-
-.list-group > li:first-child {
-	border-top: 0;
-}
-
-.list-group > li:last-child {
-	border-bottom: 0;
-}
-
-.image-caption-shop {
-	padding-top: 3px;
-	text-align: center;
-	vertical-align: middle;
-	color: #8c8c8c;
-}
-
-.image-caption-shop > a {
-	text-decoration: none;
-	color: #8C8C8C;
-}
-
-.image-caption-shop > a:hover {
-	color: #ff0000;
-}
-
-.shop-collection {
-	padding-top: 1px;
-	padding-bottom: 1px;
-	color: #ff9900;
-}
-
-.btn-toggle-shoplist {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	padding-top: 10px;
-	width: 25px;
-	height: 40px;
-	border: 1px solid #DDDDDD;
-	text-align: center;
-	vertical-align: middle;
-	cursor: pointer;
-	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.16), 0 2px 3px 0 rgba(0, 0, 0, 0.12);
-}
-
-/* NavBar in left side END HERE */
-.main-map {
-	top: 51px;
-	padding-right: 0;
-	padding-left: 0;
-}
-
-/* Navbar in th right side START HERE */
-
-/* for common screen */
-.navbar-home {
-	top: 0px;
-}
-
-/* for Home screen */
-.navbar-main {
-	top: 51px;
-}
-
-.navbar-main, .navbar-home {
-	right: 0;
-	bottom: 0;
-	width: 0;
-	position: fixed;
-	z-index: 1000;
-	background-color: #f9f9f9;
-	overflow-x: hidden;
-	padding-top: 50px;
-}
-
-/* The navigation menu links */
-.navbar-main a, .navbar-home a {
-	padding: 8px 8px 8px 30px;
-	text-decoration: none;
-	font-size: 16px;
-	color: #818181;
-	display: block;
-	transition: 0.2s
-}
-
-/* When you mouse over the navigation links, change their color */
-.navbar-main a:hover, .navbar-home a:hover {
-	color: #10A7F1;
-}
-
-/* Position and style the close button (top right corner) */
-.navbar-main .closebtn, .navbar-home .closebtn {
-	position: absolute;
-	top: 0px;
-	right: 15px;
-	font-size: 36px;
-	margin-left: 50px;
-}
-/* Navbar in th right side END HERE */
-
-.row-breadcrum {
-	padding-top: 70px;
-}
-
-.breadcrumb {
-	padding-right: 80px;
-	padding-left: 80px;
-	background-color: transparent;
-	margin-bottom: 10px;
-}
-
-.breadcrumb > li + li:before {
-   color: #CCCCCC;
-   content: "> ";
-   padding: 0 5px;
-}
-
-/* Customize Tab START HERE */
-.nav-tabs > li a { 
-    background-color:#FAFAFA; 
-    color:#C8C8C8;
-}
-
-.nav-tabs > li.active > a,
-.nav-tabs > li.active > a:focus,
-.nav-tabs > li.active > a:hover {
-    background-color: #10A7F1;
-    color: #FFFFFF;
-    border: 1px solid #0D9EE0;
-}
-
-.tab-content-row {
-	padding-right: 30px;
-	padding-left: 30px;
-	line-height: 200%
-}
-
-.tab-content-row > div:first-child {
-	padding-top: 30px;
-}
-
-
-/* Customize Tab END HERE */
