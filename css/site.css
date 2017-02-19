@@ -57,6 +57,14 @@
 
 }
 
+.panel-body {
+	padding-top: 0;
+}
+
+.panel-footer {
+	padding: 0;
+}
+
 .title-profile {
 	position: absolute;
 	bottom: 15px;
@@ -103,9 +111,6 @@
 	color: #FFFFFF;
 }
 
-.panel-body {
-	padding-top: 0;
-}
 
 /* For mobile devices */
 @media only screen and (max-width: 767px) {

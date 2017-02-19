@@ -170,7 +170,7 @@
 
 			</div>
 			<div class="col-md-4 hidden-sm hidden-xs">
-				<div class="panel">
+				<div class="panel panel-default">
 					<div class="panel-heading text-center nopadding">
 						<img class="img-responsive" src="images/restaurant_cover.jpg" alt="Your Acount Image">
 						<div class="order-title">
@@ -181,11 +181,13 @@
 							<button type="button" class="btn btn-primary btn-checkout" disabled="disabled">CHECK OUT</button>
 						</div>
 					</div>
-					<div class="panel-body">
+
+<!-- 					<div class="panel-body">
 						<div>
 
 						</div>
-					</div>
+					</div> -->
+
 				</div>
 			</div>
 
@@ -232,18 +234,26 @@
 				}
 
 				var map = new google.maps.Map(mapCanvas, mapProperties);
+
+				searchAddress("CM14 5LF", map);
 			}
 
-			function getPosition(shopPostcode, resultMap) {
+			function searchAddress(shopPostcode, resultMap) {
 
 				var geocoder = new google.maps.Geocoder();
-				geocoder.geocode({'address': shopPostcode}, function(results, status){
-					if (status == 'OK') {
+
+				geocoder.geocode({address: shopPostcode}, function(results, status) {
+
+					if (status == google.maps.GeocoderStatus.OK) {
+
 						resultMap.setCenter(results[0].geometry.location);
+
 						var marker = new google.maps.Marker({
-              				map: resultsMap,
+
+              				map: resultMap,
               				position: results[0].geometry.location
             			});
+
 					} else {
 						alert('Geocode was not successful for the following reason: ' + status);
 					}

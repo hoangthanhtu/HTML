@@ -4,16 +4,88 @@
 		"selected_items":
 		[
 			[
+				"latl",
+				"latlng"
+			],
+			[
 				"pad",
 				"padding-left"
 			],
 			[
+				"text",
+				"text-decoration-line"
+			],
+			[
+				"se",
+				"searchAddress"
+			],
+			[
+				"onc",
+				"onclick\tAttr"
+			],
+			[
+				"ma",
+				"mapCanvas"
+			],
+			[
+				"Map",
+				"MapTypeId"
+			],
+			[
+				"pan",
+				"panControl"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
 				"col",
-				"col-md-8"
+				"col-xs-12"
+			],
+			[
+				"vis",
+				"visible-md"
+			],
+			[
+				"hi",
+				"hidden-xs"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"top",
+				"top"
+			],
+			[
+				"no",
+				"nopadding-right-left"
+			],
+			[
+				"pa",
+				"padding-top"
 			],
 			[
 				"pading",
-				"padding-right"
+				"padding-top"
+			],
+			[
+				"bor",
+				"border-color"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"pos",
+				"position"
 			],
 			[
 				"tabl",
@@ -36,14 +108,6 @@
 				"padding-top"
 			],
 			[
-				"hi",
-				"hidden-xs"
-			],
-			[
-				"bor",
-				"border-left"
-			],
-			[
 				"na",
 				"navbar"
 			],
@@ -56,24 +120,12 @@
 				"width"
 			],
 			[
-				"no",
-				"nopadding-right"
-			],
-			[
-				"ma",
-				"margin-right"
-			],
-			[
 				"fon",
 				"font-size"
 			],
 			[
 				"shop",
 				"shoplist"
-			],
-			[
-				"bo",
-				"border-left"
 			],
 			[
 				"back",
@@ -86,10 +138,6 @@
 			[
 				"to",
 				"top"
-			],
-			[
-				"pa",
-				"padding-bottom"
 			],
 			[
 				"form",
@@ -166,10 +214,6 @@
 			[
 				"co",
 				"color"
-			],
-			[
-				"text",
-				"text-align"
 			],
 			[
 				"margi",
@@ -280,10 +324,37 @@
 	"buffers":
 	[
 		{
+			"file": "css/site.css",
+			"settings":
+			{
+				"buffer_size": 8922,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "restaurantinfo.html",
 			"settings":
 			{
-				"buffer_size": 9391,
+				"buffer_size": 8621,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "searchlist.html",
+			"settings":
+			{
+				"buffer_size": 10062,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/sws.js",
+			"settings":
+			{
+				"buffer_size": 899,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -317,7 +388,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 400.0
+		"width": 416.0
 	},
 	"console":
 	{
@@ -343,12 +414,15 @@
 	],
 	"file_history":
 	[
-		"/D/Projects/SandwichSorted/HTML/searchlist.html",
 		"/D/Projects/SandwichSorted/HTML/index.html",
-		"/D/Projects/SandwichSorted/HTML/css/site.css",
 		"/D/Projects/SandwichSorted/HTML/account.html",
-		"/D/Projects/SandwichSorted/HTML/restaurantinfo.html",
 		"/D/Projects/SandwichSorted/HTML/settings.html",
+		"/D/Projects/SandwichSorted/HTML/js/bootstrap.min.js",
+		"/D/Projects/SandwichSorted/HTML/js/jquery-3.1.1.min.js",
+		"/D/Projects/SandwichSorted/HTML/searchlist.html",
+		"/D/TuHTT/Working/Bootstrap Template/startbootstrap-stylish-portfolio-gh-pages/index.html",
+		"/D/Projects/SandwichSorted/HTML/css/site.css",
+		"/D/Projects/SandwichSorted/HTML/restaurantinfo.html",
 		"/D/Projects/SandwichSorted/HTML/README.md",
 		"/D/Projects/SandwichSorted/HTML/login.html",
 		"/D/Projects/SandwichSorted/HTML1/HTML/css/site.css",
@@ -464,6 +538,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"container-box",
+			"container-box-shop",
+			".container",
+			"shop",
+			"tab-content",
+			"nav",
+			"panel-body",
+			"panel-heading",
+			"panel-body",
+			"panel-heading",
 			"glyphicon-search-gray",
 			"glyphicon-search",
 			"contain",
@@ -562,35 +646,122 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "restaurantinfo.html",
+					"file": "css/site.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9391,
+						"buffer_size": 8922,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3442,
-								3442
+								7344,
+								7344
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1485.0,
+						"translation.y": 8963.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "restaurantinfo.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8621,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5123,
+								5131
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4625.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "searchlist.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10062,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9250,
+								9250
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 5165.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/sws.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 899,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								899,
+								899
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 72.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
