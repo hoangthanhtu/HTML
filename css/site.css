@@ -407,7 +407,7 @@ box-shadow:         1px 1px 5px 1px rgba(135, 135, 135, 0.75);
 .map-shop {
 	padding-top: 15px;
 	width: 100%;
-	height: 100%;
+	height: 450px;
 }
 
 /* Navbar in th right side START HERE */
@@ -499,7 +499,7 @@ box-shadow:         1px 1px 5px 1px rgba(135, 135, 135, 0.75);
 	padding-top: 30px;
 }
 
-.fa-plus-circle:hover {
+.list-group-item:hover .fa-plus-circle {
 	color: #01A7F1;
 }
 
@@ -608,8 +608,20 @@ box-shadow:         1px 1px 5px 1px rgba(135, 135, 135, 0.75);
 		padding-top: 30px;
 	}
 
-	.menu .list-group-item {
+	#menu.tab-content-row {
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+
+	.menu .list-group-item, .title-shop-info	 {
 		background-color: #F9F9F9;
+		padding-right: 15px;
+		padding-left: 15px;
+
+	}
+
+	.map-shop {
+		height: 200px;
 	}
 }
 
@@ -648,5 +660,9 @@ box-shadow:         1px 1px 5px 1px rgba(135, 135, 135, 0.75);
 
 	.form-control-gray-login {
 		background-color: #FFFFFF;
+	}
+
+	.map-shop {
+		height: 350px;
 	}
 }
