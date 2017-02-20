@@ -323,7 +323,7 @@ box-shadow:         1px 1px 5px 1px rgba(135, 135, 135, 0.75);
 }
 
 .list-group {
-	margin-bottom: 0;
+	margin-bottom: 10px;
 }
 
 .list-group .list-group-item {
@@ -346,9 +346,18 @@ box-shadow:         1px 1px 5px 1px rgba(135, 135, 135, 0.75);
 	border-right: 0;
 	border-left: 0;
 	background-color: #FFFFFF;
+	vertical-align: middle;
+}
+
+.list-group-item > .fa {
+	padding-top: 10px;
 }
 
 .list-group > li:last-child {
+	border-bottom: 0;
+}
+
+.list-group > a:last-child {
 	border-bottom: 0;
 }
 
@@ -488,6 +497,14 @@ box-shadow:         1px 1px 5px 1px rgba(135, 135, 135, 0.75);
 
 .tab-content-row > div:first-child {
 	padding-top: 30px;
+}
+
+.fa-plus-circle:hover {
+	color: #01A7F1;
+}
+
+.title-food {
+	padding-bottom: 20px;
 }
 
 /* Customize Tab END HERE */

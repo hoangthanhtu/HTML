@@ -4,144 +4,32 @@
 		"selected_items":
 		[
 			[
-				"hi",
-				"hidden-xs"
-			],
-			[
-				"pad",
-				"padding-left"
-			],
-			[
-				"o",
-				"openShopNav"
-			],
-			[
-				"wi",
-				"width"
-			],
-			[
-				"back",
-				"background-color"
-			],
-			[
-				"bac",
-				"background-color"
-			],
-			[
-				"hid",
-				"hidden-sm"
-			],
-			[
-				"h",
-				"hidden"
-			],
-			[
-				"bor",
-				"border"
-			],
-			[
 				"pading",
-				"padding-left"
-			],
-			[
-				"ma",
-				"margin-bottom"
-			],
-			[
-				"margin",
-				"margin-bottom"
-			],
-			[
-				"text-",
-				"text-decoration"
-			],
-			[
-				"padin",
 				"padding-right"
 			],
 			[
-				"padding-",
-				"padding-bottom"
+				"baclk",
+				"background-color"
 			],
 			[
-				"bo",
-				"border"
-			],
-			[
-				"latl",
-				"latlng"
-			],
-			[
-				"text",
-				"text-decoration-line"
-			],
-			[
-				"se",
-				"searchAddress"
-			],
-			[
-				"onc",
-				"onclick\tAttr"
-			],
-			[
-				"Map",
-				"MapTypeId"
-			],
-			[
-				"pan",
-				"panControl"
-			],
-			[
-				"get",
-				"getElementById"
-			],
-			[
-				"col",
-				"col-xs-12"
-			],
-			[
-				"vis",
-				"visible-md"
-			],
-			[
-				"top",
-				"top"
-			],
-			[
-				"no",
-				"nopadding-right-left"
-			],
-			[
-				"pa",
+				"pad",
 				"padding-top"
-			],
-			[
-				"op",
-				"opacity"
-			],
-			[
-				"pos",
-				"position"
-			],
-			[
-				"tabl",
-				"table-cell"
-			],
-			[
-				"in",
-				"inline"
-			],
-			[
-				"di",
-				"display"
 			],
 			[
 				"font",
 				"font-size"
 			],
 			[
-				"padd",
-				"padding-top"
+				"padin",
+				"padding-right"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"hi",
+				"hidden-xs"
 			],
 			[
 				"na",
@@ -156,6 +44,14 @@
 				"width"
 			],
 			[
+				"no",
+				"nopadding-right"
+			],
+			[
+				"ma",
+				"margin-right"
+			],
+			[
 				"fon",
 				"font-size"
 			],
@@ -164,12 +60,28 @@
 				"shoplist"
 			],
 			[
+				"bo",
+				"border-left"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
 				"border",
 				"border-width"
 			],
 			[
+				"col",
+				"col-sm-6"
+			],
+			[
 				"to",
 				"top"
+			],
+			[
+				"pa",
+				"padding-bottom"
 			],
 			[
 				"form",
@@ -208,12 +120,20 @@
 				"Footer"
 			],
 			[
+				"padd",
+				"padding-bottom"
+			],
+			[
 				"so",
 				"solid"
 			],
 			[
 				"border-c",
 				"border-color"
+			],
+			[
+				"wi",
+				"width"
 			],
 			[
 				"cen",
@@ -242,6 +162,10 @@
 			[
 				"co",
 				"color"
+			],
+			[
+				"text",
+				"text-align"
 			],
 			[
 				"margi",
@@ -324,6 +248,10 @@
 				"row-content"
 			],
 			[
+				"di",
+				"div\tTag"
+			],
+			[
 				"l",
 				"li\tTag"
 			],
@@ -361,11 +289,27 @@
 			}
 		},
 		{
-			"file": "detailmenu.html",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 9503,
+				"buffer_size": 3709,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "restaurantinfo.html",
+			"settings":
+			{
+				"buffer_size": 9776,
 				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "account.html",
+			"settings":
+			{
+				"buffer_size": 5128,
 				"line_ending": "Windows"
 			}
 		}
@@ -418,29 +362,27 @@
 	},
 	"expanded_folders":
 	[
-		"/D/Projects/SandwichSorted/HTML",
-		"/D/Projects/SandwichSorted/HTML/css",
-		"/D/Projects/SandwichSorted/HTML/js"
+		"/D/TuHTT/Working/SandwichSorted/HTML",
+		"/D/TuHTT/Working/SandwichSorted/HTML/css"
 	],
 	"file_history":
 	[
-		"/D/Projects/SandwichSorted/HTML/restaurantinfo.html",
-		"/D/Projects/SandwichSorted/HTML/account.html",
+		"/D/TuHTT/Working/SandwichSorted/HTML/searchlist.html",
+		"/D/TuHTT/Working/SandwichSorted/HTML/account.html",
+		"/D/TuHTT/Working/SandwichSorted/HTML/Google API key",
+		"/D/TuHTT/Working/SandwichSorted/HTML/settings.html",
+		"/D/TuHTT/Working/SandwichSorted/HTML/login.html",
+		"/D/TuHTT/Working/SandwichSorted/HTML/index.html",
+		"/D/TuHTT/Working/SandwichSorted/backup/HTML/css/site.css",
+		"/D/TuHTT/Working/SandwichSorted/HTML/css/sitestyle.css",
 		"/D/Projects/SandwichSorted/HTML/settings.html",
+		"/D/Projects/SandwichSorted/HTML/css/site.css",
 		"/D/Projects/SandwichSorted/HTML/searchlist.html",
 		"/D/Projects/SandwichSorted/HTML/login.html",
-		"/D/Projects/SandwichSorted/HTML/js/sws.js",
-		"/D/Projects/SandwichSorted/Ref/postcodesex.txt",
-		"/D/Projects/SandwichSorted/Ref/startbootstrap-simple-sidebar-gh-pages/index.html",
-		"/D/Projects/SandwichSorted/Ref/startbootstrap-simple-sidebar-gh-pages/css/simple-sidebar.css",
 		"/D/Projects/SandwichSorted/HTML/index.html",
-		"/D/Projects/SandwichSorted/HTML/css/site.css",
-		"/D/Projects/SandwichSorted/HTML/js/bootstrap.min.js",
-		"/D/Projects/SandwichSorted/HTML/js/jquery-3.1.1.min.js",
-		"/D/TuHTT/Working/Bootstrap Template/startbootstrap-stylish-portfolio-gh-pages/index.html",
-		"/D/Projects/SandwichSorted/HTML/README.md",
 		"/D/Projects/SandwichSorted/HTML1/HTML/css/site.css",
 		"/D/Projects/SandwichSorted/HTML/index1.html",
+		"/D/Projects/SandwichSorted/HTML/account.html",
 		"/D/Projects/SandwichSorted/HTML/css/bootstrap-theme.min.css",
 		"/D/Projects/SandwichSorted/HTML/css/bootstrap.min.css",
 		"/D/TuHTT/Working/Bootstrap Template/pluto-material-design-html-app-landing-page/index.html",
@@ -536,14 +478,13 @@
 	],
 	"find":
 	{
-		"height": 36.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
 		"height": 93.0,
 		"where_history":
 		[
-			"D:\\Projects\\SandwichSorted\\HTML",
 			"D:\\99_Working\\20151228\\ChamWhitebox\\Code\\FR18DN_MockProject_IT1_Coding_KienHQ,<open folders>,D:\\Projects\\SandwichSorted\\HTML",
 			"D:\\99_Working\\20151228\\ChamWhitebox\\Code\\FR18DN_MockProject_IT1_Coding_KienHQ"
 		]
@@ -553,77 +494,19 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"map-shop",
-			"navbar-inverse",
-			"box-shadow",
-			"box-shadown",
-			"form-profile",
-			"list-group-item",
-			"box-shadow",
-			"panel-body",
-			"tab",
-			"tab-content-row",
-			"tab-content",
-			"tab-pane",
-			".menu.list-group",
-			"menu",
-			"tab",
-			"navbar-back",
-			"btn-back",
-			"tab-content",
-			".menu",
-			".list-group .menu",
-			"list-group",
-			"panel-body",
-			"info",
-			"<i class=\"fa fa-lg fa-angle-right pull-right aria-hidden=\"true\"></i>",
-			"list-group",
-			"mapContent",
-			"list-group",
-			"href=\"#\"",
-			"container-box-login",
-			"href=\"#\"",
-			"login",
-			"modal",
-			"href=\"#\"",
-			"navbar-in",
-			"form-control-gray",
-			" form-control-gray",
-			"panel-heading",
-			"container-box",
-			"login",
-			"login-box",
-			"login",
-			"href=\"#\"",
-			"setting",
-			"container-box",
-			"container-box-shop",
-			".container",
-			"shop",
-			"tab-content",
-			"nav",
-			"panel-body",
-			"panel-heading",
-			"panel-body",
-			"panel-heading",
-			"glyphicon-search-gray",
-			"glyphicon-search",
-			"contain",
-			"row-logo",
-			"container-box",
 			"panel",
 			"container-box",
-			"boxcard",
+			"panel-body",
+			"glyphicon-search",
+			".panel-body",
+			"/* Portrait and Landscape */",
+			"panel",
 			"navbar-text",
-			"navbar-brand",
-			"input-group-addon",
+			"input-group",
+			"form",
+			"row",
 			"input-search",
-			"navbar-right-home",
-			"navbar-right",
-			"navbar-home",
-			"navbar-right",
-			"center-block",
-			"boxcard",
+			"logo",
 			"gly",
 			"navbar-center",
 			"navbar",
@@ -680,14 +563,11 @@
 		],
 		"highlight": true,
 		"in_selection": false,
-		"preserve_case": true,
+		"preserve_case": false,
 		"regex": false,
 		"replace_history":
 		[
-			"",
-			"container-box",
-			"navbar-main",
-			"navbar-right-home",
+			"START",
 			"image-caption-shop",
 			"caption-shopname",
 			"\\t",
@@ -705,7 +585,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -721,8 +601,8 @@
 						"selection":
 						[
 							[
-								6241,
-								6241
+								0,
+								0
 							]
 						],
 						"settings":
@@ -731,7 +611,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 7643.0,
+						"translation.y": 1556.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -739,19 +619,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "detailmenu.html",
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9503,
+						"buffer_size": 3709,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4400,
-								4421
+								0,
+								0
 							]
 						],
 						"settings":
@@ -760,10 +640,69 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2086.0,
+						"translation.y": 1883.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "restaurantinfo.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9776,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1007.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "account.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5128,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1161.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -771,7 +710,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 36.0
+		"height": 26.0
 	},
 	"input":
 	{
@@ -808,7 +747,7 @@
 	"project": "SWS_Design.sublime-project",
 	"replace":
 	{
-		"height": 66.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":
