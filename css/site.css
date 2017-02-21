@@ -133,6 +133,21 @@ a:hover {
 	width: 100%;
 }
 
+.button-edit {
+	vertical-align: middle;
+	padding-top: 20px;
+	padding-right: 15px;
+	padding-bottom: 20px;
+}
+
+.header-your-order {
+	font-size: 20px;
+	padding-top: 20px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 25px;
+}
+
 .btn[disabled] {
 	opacity: .55;
 }
@@ -326,14 +341,19 @@ box-shadow:         1px 1px 5px 1px rgba(135, 135, 135, 0.75);
 	margin-bottom: 10px;
 }
 
+
+
 .list-group .list-group-item {
 	border-radius: 0;
 }
 
 .list-group-item {
-	background-color: #F9F9F9;
 	border-right: 0;
 	border-left: 0;
+}
+
+.list-group-item.shop-list {
+	background-color: #F9F9F9;
 }
 
 .list-group .settings > li:first-child {
