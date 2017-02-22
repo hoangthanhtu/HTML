@@ -130,7 +130,7 @@ a:hover {
 }
 
 .btn-checkout {
-	width: 100%;
+	width: 80%;
 }
 
 .btn-default.edit {
@@ -150,18 +150,11 @@ a:hover {
 	padding-bottom: 15px;
 }
 
-.header-your-order {
-	font-size: 20px;
-	padding-top: 15px;
-	padding-right: 15px;
-	padding-left: 15px;
-	padding-bottom: 15px;
-	border-bottom: 1px solid #D6D6D6;
-}
-
-
-.btn[disabled] {
-	opacity: .55;
+.bill-item {
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .order-title {
@@ -172,6 +165,50 @@ a:hover {
 	z-index: 1;
 	color: #FFFFFF;
 }
+
+.header-your-order {
+	font-size: 20px;
+	padding-top: 20px;
+	padding-right: 15px;
+	padding-bottom: 20px;
+	padding-left: 15px;
+
+}
+
+.order-item-title {
+	padding-top: 10px;
+	padding-left: 10px;
+	font-size: 17px;
+}
+
+.order-subitem-title {
+	font-size: 14px;
+	color: #575757
+}
+
+ul.order-subitem-title {
+    list-style: none;
+	padding-left: 10px;
+}
+
+li.subitem:before {
+	content: "+";
+}
+
+.panel-footer.order-total {
+	padding-top: 20px;
+	padding-bottom: 30px;
+	border-top: 2px solid #9F9F9F;
+	background-color: #FFFFFF;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.btn[disabled] {
+	opacity: .55;
+}
+
+
 
 /* Top Navbar common START HERE */
 .navbar .navbar-nav >li > a {
@@ -352,7 +389,6 @@ box-shadow:         1px 1px 5px 1px rgba(135, 135, 135, 0.75);
 .list-group {
 	margin-bottom: 10px;
 }
-
 
 
 .list-group .list-group-item {
