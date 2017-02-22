@@ -133,20 +133,32 @@ a:hover {
 	width: 100%;
 }
 
+.btn-default.edit {
+	background-image: none !important;
+	background-color: #D8D8D8;
+	border-color: #D6D6D6;
+	font-weight: bold;
+	color: #000000;
+	width: 100px;
+	border-radius: 3px;
+}
+
 .button-edit {
 	vertical-align: middle;
-	padding-top: 20px;
+	padding-top: 15px;
 	padding-right: 15px;
-	padding-bottom: 20px;
+	padding-bottom: 15px;
 }
 
 .header-your-order {
 	font-size: 20px;
-	padding-top: 20px;
+	padding-top: 15px;
 	padding-right: 15px;
 	padding-left: 15px;
-	padding-bottom: 25px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #D6D6D6;
 }
+
 
 .btn[disabled] {
 	opacity: .55;
