@@ -93,12 +93,12 @@
 
 						<!-- Tab header -->
 						<ul class="nav nav-tabs nav-justified">
-							<li role="presentation">
+							<li role="presentation" class="active">
 								<a href="#menu" aria-controls="menu" role="tab" data-toggle="tab">
 									<span class="glyphicon glyphicon-cutlery"></span> MENU
 								</a>
 							</li>
-							<li role="presentation" class="active">
+							<li role="presentation">
 								<a href="#info" aria-controls="info" role="tab" data-toggle="tab">
 									<span class="glyphicon glyphicon-info-sign"></span> INFO
 								</a>
@@ -108,7 +108,7 @@
 						<!-- Tab content -->
 						<div class="tab-content">
 							<!-- Tab panel MENU -->
-							<div role="tabpanel" class="tab-pane fade tab-content-row" id="menu">
+							<div role="tabpanel" class="tab-pane fade in active tab-content-row" id="menu">
 								<div class="title-shop-info">
 									<div class="pull-right">
 										<span class="glyphicon glyphicon-map-marker"></span>
@@ -123,7 +123,51 @@
 									</ul>
 								</div>
 
-								<div>
+								<div class="list-group menu" id="list-group-menu-main">
+
+									<a href="#collapse-menu-main" class="list-group-item" data-toggle="collapse" data-target="#collapse-menu-item" data-parent="#list-group-menu-main">
+										<h4 class="list-group-item-heading">Sandwiches</h4>
+									</a>
+
+									<div class="collapse list-group" id="collapse-menu-item">
+
+										<a href="#collapse-menu-item" class="list-group-item" data-toggle="collapse" data-target="#collapse-menu-subitem" data-parent="#list-group-menu-main">
+											<i class="fa fa-lg fa-plus-circle fa-2x pull-right" aria-hidden="true"></i>
+											<h5 class="list-group-item-heading">Roast Chicken & Sweet Chilli</h5>
+											<p class="list-group-item-text">&pound;3.50</p>
+										</a>
+
+										<a href="#" class="list-group-item">
+											<i class="fa fa-lg fa-plus-circle fa-2x pull-right" aria-hidden="true"></i>
+											<h4 class="list-group-item-heading">Coronation Chicken</h4>
+											<p class="list-group-item-text">&pound;3.50</p>
+										</a>
+										<a href="#" class="list-group-item">
+											<i class="fa fa-lg fa-plus-circle fa-2x pull-right" aria-hidden="true"></i>
+											<h4 class="list-group-item-heading">Mixed Salad with Light Dressing</h4>
+											<p class="list-group-item-text">&pound;3.50</p>
+										</a>
+										<a href="#" class="list-group-item">
+											<i class="fa fa-lg fa-plus-circle fa-2x pull-right" aria-hidden="true"></i>
+											<h4 class="list-group-item-heading">Tuna & Light Mayo Sweetcorn</h4>
+											<p class="list-group-item-text">&pound;3.50</p>
+										</a>
+										<a href="#" class="list-group-item">
+											<i class="fa fa-lg fa-plus-circle fa-2x pull-right" aria-hidden="true"></i>
+											<h4 class="list-group-item-heading">Grilled Bacon BLT</h4>
+											<p class="list-group-item-text">&pound;3.50</p>
+										</a>
+										<a href="#" class="list-group-item">
+											<i class="fa fa-lg fa-plus-circle fa-2x pull-right" aria-hidden="true"></i>
+											<h4 class="list-group-item-heading">Tuna & Light Mayo</h4>
+											<p class="list-group-item-text">&pound;3.50</p>
+										</a>
+									</div>
+
+
+								</div>
+
+<!-- 								<div>
 									<ul class="list-group menu">
 										<li class="list-group-item">Sandwiches</li>
 										<li class="list-group-item">Paninis</li>
@@ -133,11 +177,11 @@
 										<li class="list-group-item">Jacket Potatos</li>
 										<li class="list-group-item">Paninis</li>
 									</ul>
-								</div>
+								</div> -->
 							</div>
 
 							<!-- Tab panel RESTAURANT INFO -->
-							<div role="tabpanel" class="tab-pane fade in active tab-content-row" id="info">
+							<div role="tabpanel" class="tab-pane fade tab-content-row" id="info">
 								<div>
 									<div class="pull-right">
 										<span class="glyphicon glyphicon-map-marker"></span>
