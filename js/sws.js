@@ -24,14 +24,17 @@ function closeRightNav() {
 
 function openShopNav() {
 	var navbarShoplist = document.getElementById("navbar-shoplist");
+	var btnToggleShoplist = document.getElementById("btn-toggle-shoplist");
 
 	if (navbarShoplist.style.display === 'none') {
 
 		navbarShoplist.style.display = 'block';
+		btnToggleShoplist.style.left = '337px';
 
 	} else {
 		
 		navbarShoplist.style.display = 'none';
+		btnToggleShoplist.style.left = '0';
 	}
 
 }
