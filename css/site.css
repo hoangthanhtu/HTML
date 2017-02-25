@@ -373,7 +373,7 @@ box-shadow:         1px 1px 5px 1px rgba(135, 135, 135, 0.75);
 	top: 51px;
 	bottom: 0;
 	left: 0;
-	z-index: 1000;
+	z-index: 1;
 	padding-right: 0;
 	padding-left: 0;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
@@ -406,15 +406,6 @@ box-shadow:         1px 1px 5px 1px rgba(135, 135, 135, 0.75);
 
 .list-group .settings > li:first-child {
 	border-top: 0;
-}
-
-.menu .list-group-item {
-	padding-right: 0;
-	padding-left: 0;
-	border-right: 0;
-	border-left: 0;
-	background-color: #FFFFFF;
-	vertical-align: middle;
 }
 
 .list-group-item > .fa {
@@ -462,6 +453,7 @@ box-shadow:         1px 1px 5px 1px rgba(135, 135, 135, 0.75);
 	text-align: center;
 	vertical-align: middle;
 	cursor: pointer;
+	background-color: #FFFFFF;
 	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.16), 0 2px 3px 0 rgba(0, 0, 0, 0.12);
 }
 
@@ -565,6 +557,28 @@ box-shadow:         1px 1px 5px 1px rgba(135, 135, 135, 0.75);
 
 .tab-content-row > div:first-child {
 	padding-top: 30px;
+}
+
+.title-shop-info {
+	padding-bottom: 10px;
+}
+
+.list-group.menu {
+	box-shadow: none;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+}
+
+.menu .list-group-item {
+	padding-right: 0;
+	padding-left: 0;
+	border-right: 0;
+	border-left: 0;
+	vertical-align: middle;
+}
+
+h4.list-group-item-heading {
+	line-height: 1.5;
 }
 
 .list-group-item:hover .fa-plus-circle {
@@ -681,11 +695,10 @@ box-shadow:         1px 1px 5px 1px rgba(135, 135, 135, 0.75);
 		padding-left: 0px;
 	}
 
-	.menu .list-group-item, .title-shop-info	 {
+	.menu .list-group-item, .title-shop-info {
 		background-color: #F9F9F9;
 		padding-right: 15px;
 		padding-left: 15px;
-
 	}
 
 	.map-shop {
