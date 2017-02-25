@@ -229,11 +229,12 @@
 					<div id="map-shop" class="nopadding-right-left">
 							
 					</div>
-					<div class="btn-toggle-shoplist" onclick="openShopNav()" id="btn-toggle-shoplist">
-						<span class="glyphicon glyphicon-triangle-left"></span>
-					</div>
 				</div>
 			</div>
+			<div class="btn-toggle-shoplist hidden-sm hidden-xs" onclick="openShopNav()" id="btn-toggle-shoplist">
+				<span class="glyphicon glyphicon-triangle-left"></span>
+			</div>
+
 		</div>
 
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -244,7 +245,6 @@
 		<script type="text/javascript">
 
 			var navbarLeftWidth;
-			var mapContentWidth;
 
 			$(document).ready(function() {
 
@@ -262,10 +262,9 @@
 
 				// Store the width of left navbar and mapContent
 				navbarLeftWidth = $("#navbar-shoplist").width();
-				mapContentWidth = $("#mapContent").width();
 
-				// console.log("Initial of Left Navbar: " + navbarLeftWidth);
-				// console.log("Initial of Map Content: " + mapContentWidth);
+				console.log(navbarLeftWidth);
+				$("#btn-toggle-shoplist").css("left", navbarLeftWidth);
 
 			});
 
@@ -381,6 +380,18 @@
 				var marker = markerList[id];
 
 				google.maps.event.trigger(marker, "click");
+
+			}
+
+			function openShopNav() {
+
+				if ($("#navbar-shoplist").css("display") == "none") {
+					$("#navbar-shoplist").css("display", "block");
+					$("#btn-toggle-shoplist").css("left", navbarLeftWidth);
+				} else {
+					$("#navbar-shoplist").css("display", "none");
+					$("#btn-toggle-shoplist").css("left", 0);
+				}
 
 			}
 
