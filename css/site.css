@@ -581,6 +581,7 @@ box-shadow:         1px 1px 5px 1px rgba(135, 135, 135, 0.75);
 }
 
 .list-group.menu {
+	margin-bottom: 0;
 	box-shadow: none;
 	-webkit-box-shadow:none;
 	-moz-box-shadow:none;
@@ -596,6 +597,14 @@ box-shadow:         1px 1px 5px 1px rgba(135, 135, 135, 0.75);
 
 h4.list-group-item-heading {
 	line-height: 1.5;
+}
+
+.menu-main {
+	padding-left: 15px;
+}
+
+.menu-item {
+	padding-left: 30px;
 }
 
 .list-group-item:hover .fa-plus-circle {
