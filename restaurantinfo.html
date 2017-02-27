@@ -87,7 +87,7 @@
 			<div class="col-md-8 nopadding-right-left">
 				<div class="panel panel-default">
 					<div class="panel-heading nopadding">
-						<img class="img-responsive" src="images/restaurant_cover.jpg" alt="Your Acount Image">
+						<img class="img-responsive" src="images/restaurant_cover.jpg" alt="Restaurant Cover">
 					</div>
 					<div class="panel-body panel-restaurant nopadding-right-left">
 
@@ -370,64 +370,65 @@
 							</div>
 
 							<!-- Tab panel RESTAURANT INFO -->
-							<div role="tabpanel" class="tab-pane fade tab-content-row" id="info-tab">
-								<div>
-									<div class="pull-right">
-										<span class="glyphicon glyphicon-map-marker"></span>
-										<small>0.5min</small>
+							<div role="tabpanel" class="tab-pane fade" id="info-tab">
+								<div class="tab-content-row">
+									<div>
+										<div class="pull-right">
+											<span class="glyphicon glyphicon-map-marker"></span>
+											<small>0.5min</small>
+										</div>
+										<ul class="list-unstyled">
+											<li><h3 class="media-heading"><strong>Lawson Cafe</strong></h3></li>
+											<li class="shop-collection">
+												<span class="glyphicon glyphicon-time"></span>
+												Collection 20 mins
+											</li>
+											<li><strong>Italian, Cafe</strong></li>
+											<li>We serve specialty coffee, fancy grilled cheese sandwishes, scratch cooking, craft ales, and cide.</li>
+										</ul>
 									</div>
-									<ul class="list-unstyled">
-										<li><h3 class="media-heading"><strong>Lawson Cafe</strong></h3></li>
-										<li class="shop-collection">
-											<span class="glyphicon glyphicon-time"></span>
-											Collection 20 mins
-										</li>
-										<li><strong>Italian, Cafe</strong></li>
-										<li>We serve specialty coffee, fancy grilled cheese sandwishes, scratch cooking, craft ales, and cide.</li>
-									</ul>
-								</div>
-								<hr/>
-								<div>
-									<ul class="list-unstyled">
-										<li>
-											<i class="fa fa-map-marker fa-fw" aria-hidden="true"></i>
-											&nbsp;
-											Chindits Lane, Brentwood, CM14 5LF
-										</li>
-										<li>
-											<i class="fa fa-envelope fa-fw" aria-hidden="true"></i>
-											&nbsp;
-											info@lacafe.co.uk
-										</li>
-										<li>
-											<i class="fa fa-phone fa-fw" aria-hidden="true"></i>
-											&nbsp;
-											01274 12345
-										</li>
-										<li>
-											<i class="fa fa-clock-o fa-fw" aria-hidden="true"></i>
-											&nbsp;
-											08:30 - 17:30
-										</li>
-									</ul>
-								</div>
-								<div class="panel-footer">
-									<!-- Shop Map -->
-									<div id="map-shop" class="map-shop nopadding-right-left">
-										
+									<hr/>
+									<div>
+										<ul class="list-unstyled">
+											<li>
+												<i class="fa fa-map-marker fa-fw" aria-hidden="true"></i>
+												&nbsp;
+												Chindits Lane, Brentwood, CM14 5LF
+											</li>
+											<li>
+												<i class="fa fa-envelope fa-fw" aria-hidden="true"></i>
+												&nbsp;
+												info@lacafe.co.uk
+											</li>
+											<li>
+												<i class="fa fa-phone fa-fw" aria-hidden="true"></i>
+												&nbsp;
+												01274 12345
+											</li>
+											<li>
+												<i class="fa fa-clock-o fa-fw" aria-hidden="true"></i>
+												&nbsp;
+												08:30 - 17:30
+											</li>
+										</ul>
 									</div>
 								</div>
 
+								<!-- Restaurant Map -->
+								<div id="map-shop" class="map-shop nopadding-right-left">
+									
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-
 			</div>
+
+			<!-- Shopping cart -->
 			<div class="col-md-4 hidden-sm hidden-xs">
 				<div class="panel panel-default">
 					<div class="panel-heading text-center nopadding">
-						<img class="img-responsive" src="images/restaurant_cover.jpg" alt="Your Acount Image">
+						<img class="img-responsive" src="images/restaurant_cover.jpg" alt="Restaurant Cover">
 						<div class="order-title">
 							<h3>Order Empty</h3>
 							<h4>Go back to the menu</h4>
@@ -437,11 +438,6 @@
 						</div>
 					</div>
 
-<!-- 					<div class="panel-body">
-						<div>
-
-						</div>
-					</div> -->
 
 				</div>
 			</div>
@@ -479,48 +475,88 @@
 
 		<script type="text/javascript">
 
-			function swsMap() {
-				var shopLocation = new google.maps.LatLng(51.5073509, -0.12775829999998223);
-				var mapCanvas = document.getElementById("map-shop");
+			var googleMap;
+			var infoWindows;
+			var postCode = "ON N6A1A1";
+			var restaurantName = "Lawson Cafe"
 
-				var mapProperties = {
-					center: shopLocation,
-					zoom: 16,
-					panControl: false,
+			function initialize() {
+
+				// Init the first map with the center of London
+				googleMap = new google.maps.Map(document.getElementById('map-shop'), {
+					zoom: 15,
 					mapTypeControl: false,
+					center: new google.maps.LatLng(51.509865, -0.118092),
 					mapTypeId: google.maps.MapTypeId.ROADMAP
-				}
+				});
 
-				var map = new google.maps.Map(mapCanvas, mapProperties);
+				infoWindows = new google.maps.InfoWindow();
 
-				searchAddress("CM14 5LF", map);
+				searchAddress(postCode, restaurantName);
+
+				// Re-center map on window resize
+				google.maps.event.addDomListener(window, 'resize', function() {
+					var center = googleMap.getCenter();
+					google.maps.event.trigger(googleMap, "resize");
+					googleMap.setCenter(center);
+				});
+
 			}
 
-			function searchAddress(shopPostcode, resultMap) {
+			function searchAddress(address, name) {
 
 				var geocoder = new google.maps.Geocoder();
+				var shopLocation;
 
-				geocoder.geocode({address: shopPostcode}, function(results, status) {
+				geocoder.geocode({'address': address}, function(results, status) {
 
 					if (status == google.maps.GeocoderStatus.OK) {
 
-						resultMap.setCenter(results[0].geometry.location);
+						shopLocation = results[0].geometry.location;
+						googleMap.setCenter(shopLocation);
 
-						var marker = new google.maps.Marker({
-
-							map: resultMap,
-							position: results[0].geometry.location
-						});
+						createMarker(shopLocation, name);
 
 					} else {
-						alert('Geocode was not successful for the following reason: ' + status);
+						console.log("Geocode was not successful for the following reason: " + status);
 					}
 				});
 			}
 
+			function createMarker(location, shopName) {
+
+				var marker = new google.maps.Marker({
+					position: location,
+					icon: "./images/coffee_shop_marker.png",
+					map: googleMap
+				});
+
+				var markerTitle = "<b>" + shopName + "</b>";
+
+				google.maps.event.addListener(marker, 'mouseover', function() { 
+					infoWindows.setContent(markerTitle);
+					infoWindows.open(googleMap, marker);
+				});
+		
+				google.maps.event.addListener(marker, 'mouseout', function() { 
+					infoWindows.close();
+				});
+
+				marker.addListener('click', function() {
+					googleMap.setCenter(marker.getPosition());
+				});
+
+			}
+
+			$('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+
+				// reload the map when change tab
+			  	initialize();
+			});
+
 		</script>
 
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDab38v1LEO7Kn6Cc7oUgdGdvqooLHP9rg&callback=swsMap"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDab38v1LEO7Kn6Cc7oUgdGdvqooLHP9rg&callback=initialize"></script>
 
 
 	</body>

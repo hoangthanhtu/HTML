@@ -489,8 +489,10 @@ box-shadow:         1px 1px 5px 1px rgba(135, 135, 135, 0.75);
 .map-shop {
 	padding-top: 15px;
 	width: 100%;
-	height: 450px;
+	height: 600px;
+	border-top: 1px solid #DDDDDD;
 }
+
 
 /* Navbar in th right side START HERE */
 
@@ -569,11 +571,16 @@ box-shadow:         1px 1px 5px 1px rgba(135, 135, 135, 0.75);
 .tab-content-row {
 	padding-right: 30px;
 	padding-left: 30px;
+	padding-bottom: 10px;
 	line-height: 200%
 }
 
 .tab-content-row > div:first-child {
 	padding-top: 30px;
+}
+
+.panel-restaurant {
+	padding-bottom: 0;
 }
 
 .title-shop-info {
@@ -585,6 +592,10 @@ box-shadow:         1px 1px 5px 1px rgba(135, 135, 135, 0.75);
 	box-shadow: none;
 	-webkit-box-shadow:none;
 	-moz-box-shadow:none;
+}
+
+#menu-tab {
+	padding-bottom: 25px;
 }
 
 .menu .list-group-item {
@@ -624,6 +635,10 @@ h3.list-group-item-heading {
 		/* The file size of this background image is 93% smaller
 		* to improve page load speed on mobile internet connections */
 		background-image: url(../images/home_bg_mb.jpg);
+	}
+
+	.body-common {
+		padding-bottom: 31px;
 	}
 
 	.sidenav {
@@ -676,6 +691,10 @@ h3.list-group-item-heading {
 		padding-right: 10px;
 		padding-bottom: 10px;
 		padding-left: 10px;
+	}
+
+	.navbar-shoplist {
+		bottom: 40px;
 	}
 
 	/* Responsive tab for mobile device START here */
@@ -740,7 +759,7 @@ h3.list-group-item-heading {
 	}
 
 	.map-shop {
-		height: 200px;
+		height: 300px;
 	}
 }
 
