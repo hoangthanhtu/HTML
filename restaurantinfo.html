@@ -94,12 +94,12 @@
 						<!-- Tab header -->
 						<ul class="nav nav-tabs nav-justified">
 							<li role="presentation" class="active">
-								<a href="#menu" aria-controls="menu" role="tab" data-toggle="tab">
+								<a href="#menu-tab" aria-controls="menu" role="tab" data-toggle="tab">
 									<span class="glyphicon glyphicon-cutlery"></span> MENU
 								</a>
 							</li>
 							<li role="presentation">
-								<a href="#info" aria-controls="info" role="tab" data-toggle="tab">
+								<a href="#info-tab" aria-controls="info" role="tab" data-toggle="tab">
 									<span class="glyphicon glyphicon-info-sign"></span> INFO
 								</a>
 							</li>
@@ -108,7 +108,7 @@
 						<!-- Tab content -->
 						<div class="tab-content">
 							<!-- Tab panel MENU -->
-							<div role="tabpanel" class="tab-pane fade in active tab-content-row" id="menu">
+							<div role="tabpanel" class="tab-pane fade in active tab-content-row" id="menu-tab">
 								<div class="title-shop-info">
 									<div class="pull-right">
 										<span class="glyphicon glyphicon-map-marker"></span>
@@ -125,83 +125,252 @@
 
 								<div class="list-group menu" id="menu">
 
-									<a href="#menu-main" class="list-group-item" data-toggle="collapse" data-target="#menu-main" aria-expanded="false" aria-controls="menu-main">
+									<a href="#menu-main_0" class="list-group-item" data-toggle="collapse" data-parent="#menu-tab">
 										<h3 class="list-group-item-heading">Sandwiches</h3>
 									</a>
 									
-										<div class="list-group menu collapse" id="menu-main">
+										<div class="list-group menu collapse" id="menu-main_0">
 											
-											<a href="#menu-item" class="list-group-item" data-toggle="collapse" data-target="#menu-item" aria-expanded="false" aria-controls="menu-item">
-												<i class="fa fa-lg fa-plus-circle fa-2x pull-right" aria-hidden="true"></i>
+											<a href="#menu-item_00" class="list-group-item" data-toggle="collapse" data-parent="#menu-tab">
+										 		<i class="fa fa-lg fa-plus-circle fa-2x pull-right" aria-hidden="true"></i>
 												<h4 class="list-group-item-heading menu-main">Roast Chicken & Sweet Chilli</h4>
 												<p class="list-group-item-text menu-main">&pound;3.50</p>
 											</a>
 
-												<div class="list-group menu collapse" id="menu-item">
+												<div class="list-group menu collapse" id="menu-item_00">
 
 													<a href="#menu-item" class="list-group-item">
 														<i class="fa fa-lg fa-plus-circle fa-2x pull-right" aria-hidden="true"></i>
-														<h4 class="list-group-item-heading menu-item">White</h4>
+														<h5 class="list-group-item-heading menu-item">White</h5>
 														<p class="list-group-item-text menu-item">&pound;0.5</p>
 													</a>
 
 													<a href="#menu-item" class="list-group-item">
 														<i class="fa fa-lg fa-plus-circle fa-2x pull-right" aria-hidden="true"></i>
-														<h4 class="list-group-item-heading menu-item">WholeMeal</h4>
+														<h5 class="list-group-item-heading menu-item">WholeMeal</h5>
 														<p class="list-group-item-text menu-item">&pound;0.4</p>
 													</a>
 
 													<a href="#menu-item" class="list-group-item">
 														<i class="fa fa-lg fa-plus-circle fa-2x pull-right" aria-hidden="true"></i>
-														<h4 class="list-group-item-heading menu-item">Granary</h4>
+														<h5 class="list-group-item-heading menu-item">Granary</h5>
 														<p class="list-group-item-text menu-item">&pound;0.03</p>
 													</a>
 
 													<a href="#menu-item" class="list-group-item">
 														<i class="fa fa-lg fa-plus-circle fa-2x pull-right" aria-hidden="true"></i>
-														<h4 class="list-group-item-heading menu-item">Baguette</h4>
+														<h5 class="list-group-item-heading menu-item">Baguette</h5>
 														<p class="list-group-item-text menu-item">&pound;0.4</p>
 													</a>
 
 													<a href="#menu-item" class="list-group-item">
 														<i class="fa fa-lg fa-plus-circle fa-2x pull-right" aria-hidden="true"></i>
-														<h4 class="list-group-item-heading menu-item">Toasted</h4>
+														<h5 class="list-group-item-heading menu-item">Toasted</h5>
 														<p class="list-group-item-text menu-item">&pound;0.4</p>
 													</a>
 
 												</div>
+
+											<a href="#menu-item_01" class="list-group-item" data-toggle="collapse" data-parent="#menu-tab">
+										 		<i class="fa fa-lg fa-plus-circle fa-2x pull-right" aria-hidden="true"></i>
+												<h4 class="list-group-item-heading menu-main">Coronation Chicken</h4>
+												<p class="list-group-item-text menu-main">&pound;3.50</p>
+											</a>
+
+												<div class="list-group menu collapse" id="menu-item_01">
+
+													<a href="#menu-item" class="list-group-item">
+														<i class="fa fa-lg fa-plus-circle fa-2x pull-right" aria-hidden="true"></i>
+														<h5 class="list-group-item-heading menu-item">Brown Bread</h5>
+														<p class="list-group-item-text menu-item">&pound;0.5</p>
+													</a>
+
+													<a href="#menu-item" class="list-group-item">
+														<i class="fa fa-lg fa-plus-circle fa-2x pull-right" aria-hidden="true"></i>
+														<h5 class="list-group-item-heading menu-item">White Bread</h5>
+														<p class="list-group-item-text menu-item">&pound;0.4</p>
+													</a>
+
+													<a href="#menu-item" class="list-group-item">
+														<i class="fa fa-lg fa-plus-circle fa-2x pull-right" aria-hidden="true"></i>
+														<h5 class="list-group-item-heading menu-item">Baguette</h5>
+														<p class="list-group-item-text menu-item">&pound;0.03</p>
+													</a>
+
+													<a href="#menu-item" class="list-group-item">
+														<i class="fa fa-lg fa-plus-circle fa-2x pull-right" aria-hidden="true"></i>
+														<h5 class="list-group-item-heading menu-item">Toasted</h5>
+														<p class="list-group-item-text menu-item">&pound;0.4</p>
+													</a>
+
+												</div>
+
+											<a href="#menu-item_02" class="list-group-item" data-toggle="collapse" data-parent="#menu-tab">
+										 		<i class="fa fa-lg fa-plus-circle fa-2x pull-right" aria-hidden="true"></i>
+												<h4 class="list-group-item-heading menu-main">Mixed Salad with Light Dressing</h4>
+												<p class="list-group-item-text menu-main">&pound;2.95</p>
+											</a>
+
+												<div class="list-group menu collapse" id="menu-item_02">
+
+													<a href="#menu-item" class="list-group-item">
+														<i class="fa fa-lg fa-plus-circle fa-2x pull-right" aria-hidden="true"></i>
+														<h5 class="list-group-item-heading menu-item">Brown Bread</h5>
+														<p class="list-group-item-text menu-item">&pound;0.5</p>
+													</a>
+
+													<a href="#menu-item" class="list-group-item">
+														<i class="fa fa-lg fa-plus-circle fa-2x pull-right" aria-hidden="true"></i>
+														<h5 class="list-group-item-heading menu-item">White Bread</h5>
+														<p class="list-group-item-text menu-item">&pound;0.4</p>
+													</a>
+
+													<a href="#menu-item" class="list-group-item">
+														<i class="fa fa-lg fa-plus-circle fa-2x pull-right" aria-hidden="true"></i>
+														<h5 class="list-group-item-heading menu-item">Baguette</h5>
+														<p class="list-group-item-text menu-item">&pound;0.03</p>
+													</a>
+
+													<a href="#menu-item" class="list-group-item">
+														<i class="fa fa-lg fa-plus-circle fa-2x pull-right" aria-hidden="true"></i>
+														<h5 class="list-group-item-heading menu-item">Toasted</h5>
+														<p class="list-group-item-text menu-item">&pound;0.4</p>
+													</a>
+
+												</div>
+
+											<a href="#menu-item_03" class="list-group-item" data-toggle="collapse" data-parent="#menu-tab">
+										 		<i class="fa fa-lg fa-plus-circle fa-2x pull-right" aria-hidden="true"></i>
+												<h4 class="list-group-item-heading menu-main">Tuna & Light Mayo Sweetcorn</h4>
+												<p class="list-group-item-text menu-main">&pound;3.65</p>
+											</a>
+
+												<div class="list-group menu collapse" id="menu-item_03">
+
+													<a href="#menu-item" class="list-group-item">
+														<i class="fa fa-lg fa-plus-circle fa-2x pull-right" aria-hidden="true"></i>
+														<h5 class="list-group-item-heading menu-item">Brown Bread</h5>
+														<p class="list-group-item-text menu-item">&pound;0.5</p>
+													</a>
+
+													<a href="#menu-item" class="list-group-item">
+														<i class="fa fa-lg fa-plus-circle fa-2x pull-right" aria-hidden="true"></i>
+														<h5 class="list-group-item-heading menu-item">White Bread</h5>
+														<p class="list-group-item-text menu-item">&pound;0.4</p>
+													</a>
+
+													<a href="#menu-item" class="list-group-item">
+														<i class="fa fa-lg fa-plus-circle fa-2x pull-right" aria-hidden="true"></i>
+														<h5 class="list-group-item-heading menu-item">Baguette</h5>
+														<p class="list-group-item-text menu-item">&pound;0.03</p>
+													</a>
+
+												</div>
+
+											<a href="#menu-item_04" class="list-group-item" data-toggle="collapse" data-parent="#menu-tab">
+										 		<i class="fa fa-lg fa-plus-circle fa-2x pull-right" aria-hidden="true"></i>
+												<h4 class="list-group-item-heading menu-main">Grilled Bacon BLT</h4>
+												<p class="list-group-item-text menu-main">&pound;3.5</p>
+											</a>
+
+												<div class="list-group menu collapse" id="menu-item_04">
+
+													<a href="#menu-item" class="list-group-item">
+														<i class="fa fa-lg fa-plus-circle fa-2x pull-right" aria-hidden="true"></i>
+														<h5 class="list-group-item-heading menu-item">Brown Bread</h5>
+														<p class="list-group-item-text menu-item">&pound;0.5</p>
+													</a>
+
+													<a href="#menu-item" class="list-group-item">
+														<i class="fa fa-lg fa-plus-circle fa-2x pull-right" aria-hidden="true"></i>
+														<h5 class="list-group-item-heading menu-item">White Bread</h5>
+														<p class="list-group-item-text menu-item">&pound;0.4</p>
+													</a>
+
+													<a href="#menu-item" class="list-group-item">
+														<i class="fa fa-lg fa-plus-circle fa-2x pull-right" aria-hidden="true"></i>
+														<h5 class="list-group-item-heading menu-item">Baguette</h5>
+														<p class="list-group-item-text menu-item">&pound;0.03</p>
+													</a>
+
+												</div>
+
 										</div>
 
-
-									<a href="#menu-main" class="list-group-item" data-toggle="collapse" data-target="#collapse-menu-item">
-										<h4 class="list-group-item-heading">Paninis</h4>
+									<a href="#menu-main_1" class="list-group-item" data-toggle="collapse" data-parent="#menu-tab">
+										<h3 class="list-group-item-heading">Paninis</h3>
 									</a>
 
-									<a href="#menu-main" class="list-group-item" data-toggle="collapse" data-target="#collapse-menu-item">
-										<h4 class="list-group-item-heading">LA Wraps</h4>
+										<div class="list-group menu collapse" id="menu-main_1">
+
+											<a href="#menu-item_10" class="list-group-item" data-toggle="collapse" data-parent="#menu-tab">
+										 		<i class="fa fa-lg fa-plus-circle fa-2x pull-right" aria-hidden="true"></i>
+												<h4 class="list-group-item-heading menu-main">Roast Chicken</h4>
+												<p class="list-group-item-text menu-main">&pound;4.30</p>
+											</a>
+
+												<div class="list-group menu collapse" id="menu-item_10">
+
+													<a href="#menu-item" class="list-group-item">
+														<i class="fa fa-lg fa-plus-circle fa-2x pull-right" aria-hidden="true"></i>
+														<h5 class="list-group-item-heading menu-item">Sweet Chilli Sauce</h5>
+														<p class="list-group-item-text menu-item">&pound;0.4</p>
+													</a>
+
+													<a href="#menu-item" class="list-group-item">
+														<i class="fa fa-lg fa-plus-circle fa-2x pull-right" aria-hidden="true"></i>
+														<h5 class="list-group-item-heading menu-item">Cheese</h5>
+														<p class="list-group-item-text menu-item">&pound;0.6</p>
+													</a>
+												</div>
+
+											<a href="#menu-item_11" class="list-group-item" data-toggle="collapse" data-parent="#menu-tab">
+										 		<i class="fa fa-lg fa-plus-circle fa-2x pull-right" aria-hidden="true"></i>
+												<h4 class="list-group-item-heading menu-main">Bacon Brie & Cranberry</h4>
+												<p class="list-group-item-text menu-main">&pound;4.6</p>
+											</a>
+
+												<div class="list-group menu collapse" id="menu-item_11">
+
+													<a href="#menu-item" class="list-group-item">
+														<i class="fa fa-lg fa-plus-circle fa-2x pull-right" aria-hidden="true"></i>
+														<h5 class="list-group-item-heading menu-item">Sweet Chilli Sauce</h5>
+														<p class="list-group-item-text menu-item">&pound;0.4</p>
+													</a>
+
+													<a href="#menu-item" class="list-group-item">
+														<i class="fa fa-lg fa-plus-circle fa-2x pull-right" aria-hidden="true"></i>
+														<h5 class="list-group-item-heading menu-item">Cheese</h5>
+														<p class="list-group-item-text menu-item">&pound;0.6</p>
+													</a>
+												</div>
+										</div>
+
+									<a href="#menu-main_2" class="list-group-item" data-toggle="collapse" data-parent="#menu-tab">
+										<h3 class="list-group-item-heading">LA Wraps</h3>
 									</a>
 
-									<a href="#menu-main" class="list-group-item" data-toggle="collapse" data-target="#collapse-menu-item">
-										<h4 class="list-group-item-heading">Main Meals</h4>
+									<a href="#menu-main_3" class="list-group-item" data-toggle="collapse" data-parent="#menu-tab">
+										<h3 class="list-group-item-heading">Main Meals</h3>
 									</a>
 
-									<a href="#menu-main" class="list-group-item" data-toggle="collapse" data-target="#collapse-menu-item">
-										<h4 class="list-group-item-heading">Protein Shakes & Smoothies</h4>
+									<a href="#menu-main_4" class="list-group-item" data-toggle="collapse" data-parent="#menu-tab">
+										<h3 class="list-group-item-heading">Protein Shakes & Smoothies</h3>
 									</a>
 
-									<a href="#menu-main" class="list-group-item" data-toggle="collapse" data-target="#collapse-menu-item">
-										<h4 class="list-group-item-heading">Jacket Potatos</h4>
+									<a href="#menu-main_5" class="list-group-item" data-toggle="collapse" data-parent="#menu-tab">
+										<h3 class="list-group-item-heading">Jacket Potatos</h3>
 									</a>
 
-									<a href="#menu-main" class="list-group-item" data-toggle="collapse" data-target="#collapse-menu-item">
-										<h4 class="list-group-item-heading">Paninis</h4>
+									<a href="#menu-main_6" class="list-group-item" data-toggle="collapse" data-parent="#menu-tab">
+										<h3 class="list-group-item-heading">Paninis</h3>
 									</a>
 								</div>
 
 							</div>
 
 							<!-- Tab panel RESTAURANT INFO -->
-							<div role="tabpanel" class="tab-pane fade tab-content-row" id="info">
+							<div role="tabpanel" class="tab-pane fade tab-content-row" id="info-tab">
 								<div>
 									<div class="pull-right">
 										<span class="glyphicon glyphicon-map-marker"></span>

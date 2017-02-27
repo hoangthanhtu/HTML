@@ -595,8 +595,8 @@ box-shadow:         1px 1px 5px 1px rgba(135, 135, 135, 0.75);
 	vertical-align: middle;
 }
 
-h4.list-group-item-heading {
-	line-height: 1.5;
+h3.list-group-item-heading {
+	font-size: 20px;
 }
 
 .menu-main {
@@ -723,8 +723,20 @@ h4.list-group-item-heading {
 
 	.menu .list-group-item, .title-shop-info {
 		background-color: #F9F9F9;
+
+	}
+
+	.menu .list-group-item {
 		padding-right: 15px;
-		padding-left: 15px;
+		padding-left: 15px;		
+	}
+
+	h3.list-group-item-heading {
+		font-size: 18px;
+	}
+
+	h4.list-group-item-heading {
+		font-size: 16px;
 	}
 
 	.map-shop {
