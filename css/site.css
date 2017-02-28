@@ -140,7 +140,16 @@ a:hover {
 	font-weight: bold;
 	color: #000000;
 	width: 100px;
-	border-radius: 3px;
+	border-radius: 1px;
+}
+
+.btn-primary.edit {
+	background-image: none !important;
+	background-color: #2770CC;
+	color: #FFFFFF;
+	width: 100px;
+	border-radius: 1px;
+	font-weight: bold;
 }
 
 .button-edit {
@@ -150,12 +159,23 @@ a:hover {
 	padding-bottom: 15px;
 }
 
+.list-group.bill {
+	border-top: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.list-group-item.bill {
+	border-top: 0;
+	border-bottom: 0;
+}
+
 .bill-item {
     display: flex;
     align-items: center;
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
 
 .order-title {
 	position: absolute;
@@ -196,19 +216,23 @@ li.subitem:before {
 }
 
 .panel-footer.order-total {
+
 	padding-top: 20px;
 	padding-bottom: 30px;
+	padding-left: 10px;
 	border-top: 2px solid #9F9F9F;
 	background-color: #FFFFFF;
 	font-size: 18px;
 	font-weight: bold;
 }
 
+.bill-item-icon {
+	display: none;
+}
+
 .btn[disabled] {
 	opacity: .55;
 }
-
-
 
 /* Top Navbar common START HERE */
 .navbar .navbar-nav >li > a {
@@ -537,6 +561,10 @@ box-shadow:         1px 1px 5px 1px rgba(135, 135, 135, 0.75);
 }
 /* Navbar in th right side END HERE */
 
+.restaurant-cover-image {
+	display: none;
+}
+
 .row-breadcrum {
 	padding-top: 70px;
 }
@@ -618,6 +646,24 @@ h3.list-group-item-heading {
 	padding-left: 30px;
 }
 
+.sub-item {
+	padding-top: 15px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	height: 50px;
+	font-size: 14px;
+}
+
+.fa-minus-circle {
+	color: #EA4E4F;
+}
+
+.green-text {
+	color: #46A118;
+}
+
+
 .list-group-item:hover .fa-plus-circle {
 	color: #01A7F1;
 }
@@ -656,7 +702,7 @@ h3.list-group-item-heading {
 	}
 
 	.container-box, .container-box-shop, .container-box-login {
-		padding-top: 51px;
+		padding-top: 59px;
 		padding-right: 0;
 		padding-left: 0;
 	}
@@ -735,7 +781,7 @@ h3.list-group-item-heading {
 		padding-top: 30px;
 	}
 
-	#menu.tab-content-row {
+	#menu-tab.tab-content-row {
 		padding-right: 0px;
 		padding-left: 0px;
 	}
@@ -743,6 +789,11 @@ h3.list-group-item-heading {
 	.menu .list-group-item, .title-shop-info {
 		background-color: #F9F9F9;
 
+	}
+
+	.title-shop-info {
+		padding-right: 15px;
+		padding-left: 15px;
 	}
 
 	.menu .list-group-item {
@@ -756,6 +807,15 @@ h3.list-group-item-heading {
 
 	h4.list-group-item-heading {
 		font-size: 16px;
+	}
+
+	.sub-item {
+		padding-top: 15px;
+		padding-right: 0px;
+		padding-bottom: 10px;
+		padding-left: 45px;
+		height: 50px;
+		font-size: 14px;
 	}
 
 	.map-shop {
