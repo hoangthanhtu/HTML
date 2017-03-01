@@ -72,7 +72,7 @@
 
 		<div class="container-fluid" id="wrapper">
 			<div class="row">
-				<div class="col-md-3 navbar-shoplist" id="navbar-shoplist">
+				<div class="col-md-3 col-sm-5 navbar-shoplist" id="navbar-shoplist">
 					<div class="navbar-shoplist-heading">
 						24 RESTAURANTS FOUND
 					</div>
@@ -226,7 +226,7 @@
 						</li>
 					</ul>
 				</div>
-				<div class="col-md-9 main-map hidden-sm hidden-xs" id="mapContent">
+				<div class="col-md-9 col-sm-7 main-map hidden-xs" id="mapContent">
 					<div id="map-shop" class="nopadding-right-left">
 							
 					</div>
@@ -243,16 +243,20 @@
 			<div class="container text-center">
 				<div class="row footer">
 					<div class="footer-content col-xs-4 col-md-4">
-						<span class="footer-icon glyphicon glyphicon-search"></span>
-						<span class="footer-item">CAFES</span>
+						<a href="searchlist.html">
+							<span class="footer-icon glyphicon glyphicon-search"></span>
+							<span class="footer-item">CAFES</span>
+						</a>
 					</div>
 					<div class="footer-content col-xs-4 col-md-4">
 						<span class="footer-icon glyphicon glyphicon-list-alt"></span>
 						 <span class="footer-item">ORDERS</span>
 					</div>
 					<div class="footer-content col-xs-4 col-md-4">
-						<span class="footer-icon glyphicon glyphicon-cog"></span>
-						<span class="footer-item">SETTINGS</span>
+						<a href="settings.html">
+							<span class="footer-icon glyphicon glyphicon-cog"></span>
+							<span class="footer-item">SETTINGS</span>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -283,8 +287,6 @@
 
 				// Store the width of left navbar and mapContent
 				navbarLeftWidth = $("#navbar-shoplist").width();
-
-				console.log(navbarLeftWidth);
 				$("#btn-toggle-shoplist").css("left", navbarLeftWidth);
 
 			});
