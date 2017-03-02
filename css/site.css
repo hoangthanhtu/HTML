@@ -49,14 +49,13 @@ a:hover {
 	background-color: #F9F9F9;
 }
 
-.container-box-shop {
-	padding-right: 70px;
-	padding-left: 70px;
+.restaurant-box {
+	padding-right: 50px;
+	padding-left: 50px;	
 }
 
 .container-box-login {
 	padding-top: 100px;
-
 }
 
 .menu-box {
@@ -733,8 +732,13 @@ h3.list-group-item-heading {
 		max-height: 59px;
 	}
 
-	.container-box, .container-box-shop, .container-box-login {
+	.container-box, .container-box-login, .restaurant-box {
 		padding-top: 50px;
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+	.col-md-7.col-sm-7 {
 		padding-right: 0;
 		padding-left: 0;
 	}
@@ -880,20 +884,20 @@ h3.list-group-item-heading {
 		padding-top: 150px;
 	}
 
-	.container-box-shop {
-		padding-top: 50px;
-		padding-right: 0px !important;
-		padding-left: 0px !important;
+	.restaurant-box {
+		padding-top: 51px;
+		padding-right: 0px;
+		padding-left: 0px;
 	}
 
-	.menu-box {
-		padding-right: 0;
+	.col-md-7.col-sm-7, .col-md-5.col-sm-5 {
+		padding-right: 0px;
+		padding-left: 0px;
+		display: table-cell;
 	}
 
-	.bill-box {
-		padding-top: 1px;
-		padding-right: 0 !important;
-		padding-left: 0 !important;
+	.col-md-7.col-sm-7 {
+		border-right: 1px solid #D6D6D6;
 	}
 
 	.button-edit {
@@ -941,7 +945,6 @@ h3.list-group-item-heading {
 		font-size: 12px;
 		margin-bottom: -5px;
 	}
-
 
 	.nav-bar-topright {
 		padding-right: 15px;

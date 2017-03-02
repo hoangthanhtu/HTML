@@ -36,14 +36,15 @@
 					<div class="navbar-shopname text-nowrap">Lawson Cafe, Brentwood, CM14 5LF</div>
 				</div>
 
-<!-- 				<div class="top-shop-cart visible-xs">
+				<div class="top-shop-cart visible-xs">
 					<div class="float-icon-right">
 						<i class="fa fa-shopping-basket fa-1" aria-hidden="true"></i>
 						1 | &pound;15.25
 					</div>
-				</div> -->
+				</div>
 
 				<div class="navbar-collapse collapse" id="navbar" aria-expanded="false">
+
 					<ul class="nav navbar-nav navbar-right hidden-sm hidden-xs">
 						<li>
 							<a href="login.html" id="lnkLogin">Login</a>
@@ -75,6 +76,7 @@
 			<a href="login.html"><i class="fa fa-user" aria-hidden="true"></i> Login</a>
 		</div>
 
+		<!-- Breadcrumb -->
 		<div class="container hidden-sm hidden-xs">
 			<div class="row row-breadcrum">
 			<div class="col-xs-12">
@@ -88,8 +90,9 @@
 		</div>
 
 
-			<div class="col-md-12 col-sm-12 container-box-shop">
-				<div class="col-md-7 col-sm-7 menu-box">
+		<div class="container-fluid">
+			<div class="row restaurant-box">
+				<div class="col-md-7 col-sm-7">
 					<div class="panel panel-default">
 
 						<div class="panel-heading nopadding restaurant-cover-image hidden-xs hidden-sm">
@@ -734,7 +737,7 @@
 
 				<!-- Bill empty -->
 				<!--
-	 			<div class="col-sm-4 hidden-xs bill-box">
+	 			<div class="col-md-5 col-sm-5 hidden-xs bill-box">
 					<div class="panel panel-default">
 						<div class="panel-heading text-center nopadding">
 							<img class="img-responsive" src="images/restaurant_cover.jpg" alt="Restaurant Cover">
@@ -751,7 +754,7 @@
 				-->
 
 				<!-- Bill box -->
-				<div class="col-md-5 col-sm-5 hidden-xs bill-box">
+				<div class="col-md-5 col-sm-5 pull-right hidden-xs">
 					<div class="panel panel-default">
 						<div class="panel-heading text-center nopadding">
 							<img class="img-responsive" src="images/restaurant_cover.jpg" alt="Your Acount Image">
@@ -774,74 +777,82 @@
 
 							<ul class="list-group bill">
 								<li class="list-group-item bill">
-									<div class="row bill-item">
-										<div class="col-sm-1 bill-item-icon">
-											<i class="fa fa-lg fa-minus-circle fa-2x" aria-hidden="true"></i>
-										</div>
-										<div class="col-sm-11" id="bill-item_0">
-											<span class="order-item-title">Coronation Chicken</span>
-											<span class="pull-right">&pound;3.50</span>
-											<ul class="order-subitem-title">
-												<li class="subitem">
-													White Bread
-													<span class="pull-right">&pound;1.35</span>
-												</li>
-												<li class="subitem">
-													Brown Bread
-													<span class="pull-right">&pound;0.35</span>
-												</li>
-												<li class="subitem">
-													Sugar Bread
-													<span class="pull-right">&pound;0.35</span>
-												</li>
-											</ul>											
+									<div class="container">
+										<div class="row bill-item">
+											<div class="col-sm-1 bill-item-icon">
+												<i class="fa fa-lg fa-minus-circle fa-2x" aria-hidden="true"></i>
+											</div>
+											<div class="col-sm-11" id="bill-item_0">
+												<span class="order-item-title">Coronation Chicken</span>
+												<span class="pull-right">&pound;3.50</span>
+												<ul class="order-subitem-title">
+													<li class="subitem">
+														White Bread
+														<span class="pull-right">&pound;1.35</span>
+													</li>
+													<li class="subitem">
+														Brown Bread
+														<span class="pull-right">&pound;0.35</span>
+													</li>
+													<li class="subitem">
+														Sugar Bread
+														<span class="pull-right">&pound;0.35</span>
+													</li>
+												</ul>											
+											</div>
 										</div>
 									</div>
 								</li>
 								<li class="list-group-item bill">
-									<div class="row bill-item">
-										<div class="col-sm-1 bill-item-icon">
-											<i class="fa fa-lg fa-minus-circle fa-2x" aria-hidden="true"></i>
-										</div>
-										<div class="col-sm-11" id="bill-item_1">
-											<span class="order-item-title">Tuna & Light Mayo</span>
-											<span class="pull-right">&pound;3.50</span>
-											<ul class="order-subitem-title">
-												<li class="subitem">
-													Toasted
-													<span class="pull-right">&pound;1.35</span>
-												</li>
-												<li class="subitem">
-													White Bread
-													<span class="pull-right">&pound;1.35</span>
-												</li>
-											</ul>											
+									<div class="container">
+										<div class="row bill-item">
+											<div class="col-sm-1 bill-item-icon">
+												<i class="fa fa-lg fa-minus-circle fa-2x" aria-hidden="true"></i>
+											</div>
+											<div class="col-sm-11" id="bill-item_1">
+												<span class="order-item-title">Tuna & Light Mayo</span>
+												<span class="pull-right">&pound;3.50</span>
+												<ul class="order-subitem-title">
+													<li class="subitem">
+														Toasted
+														<span class="pull-right">&pound;1.35</span>
+													</li>
+													<li class="subitem">
+														White Bread
+														<span class="pull-right">&pound;1.35</span>
+													</li>
+												</ul>											
+											</div>
 										</div>
 									</div>
 								</li>
 							</ul>
 
 							<div class="detail-bill-subtotal">
-								<div class="row order-item-title">
-									<div class="col-sm-12">
-										<div class="col-sm-8">
-											Subtotal
-										</div>
-										<div class="col-sm-3 text-right">
-											&pound;4.85
+								<div class="container">
+									<div class="row order-item-title">
+										<div class="col-sm-12">
+											<div class="col-sm-8">
+												Subtotal
+											</div>
+											<div class="col-sm-3 text-right" id="subtotal-value">
+												&pound;4.85
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 						<div class="panel-footer order-total">
-							<div class="row">
-								<div class="col-sm-12">
-									<div class="col-sm-8">
-										TOTAL
-									</div>
-									<div class="col-sm-3 text-right">
-										&pound;4.48
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-12">
+										<div class="col-sm-8">
+											TOTAL
+										</div>
+										<div class="col-sm-3 text-right" id="total-value">
+											&pound;4.48
+										</div>
 									</div>
 								</div>
 							</div>
@@ -849,21 +860,23 @@
 					</div>
 				</div>
 			</div>
+		</div>
 
 		<!-- Footer -->
 		<footer class="navbar navbar-inverse navbar-fixed-bottom visible-xs">
 			<div class="container text-center">
-					<div class="footer-content col-xs-4 col-md-4">
+				<div class="row footer">
+					<div class="footer-content col-xs-4 col-md-4 nopadding-right-left">
 						<a href="searchlist.html">
 							<span class="footer-icon glyphicon glyphicon-search"></span>
 							<span class="footer-item">CAFES</span>
 						</a>
 					</div>
-					<div class="footer-content col-xs-4 col-md-4">
+					<div class="footer-content col-xs-4 col-md-4 nopadding-right-left">
 						<span class="footer-icon glyphicon glyphicon-list-alt"></span>
 						 <span class="footer-item">ORDERS</span>
 					</div>
-					<div class="footer-content col-xs-4 col-md-4">
+					<div class="footer-content col-xs-4 col-md-4 nopadding-right-left">
 						<a href="settings.html">
 							<span class="footer-icon glyphicon glyphicon-cog"></span>
 							<span class="footer-item">SETTINGS</span>
@@ -983,13 +996,20 @@
 					$("#edit-button").text("EDIT");
 				}
 
+				$('div[id="subtotal-value"]').removeClass();
+				$('div[id="total-value"]').removeClass();
+
 				// Toggle minus icon columns
 				if ("col-sm-12" == $('div[id^="bill-item_"]').attr("class")) {
 					$('div[id^="bill-item_"]').removeClass();
 					$('div[id^="bill-item_"]').addClass("col-sm-11");
+					$('div[id="subtotal-value"]').addClass("col-sm-3 text-right");
+					$('div[id="total-value"]').addClass("col-sm-3 text-right");
 				} else {
 					$('div[id^="bill-item_"]').removeClass();
 					$('div[id^="bill-item_"]').addClass("col-sm-12");
+					$('div[id="subtotal-value"]').addClass("col-sm-4 text-right");
+					$('div[id="total-value"]').addClass("col-sm-4 text-right");
 				}
 
 				$("." + elementClass).toggle();
