@@ -564,6 +564,10 @@ li.subitem:before {
 	padding-top: 50px;
 }
 
+.navbar-fixed-top {
+	padding-right: 15px;
+}
+
 /* The navigation menu links */
 .navbar-main a {
 	padding: 8px 8px 8px 30px;
@@ -938,7 +942,8 @@ h3.list-group-item-heading {
 		margin-bottom: -5px;
 	}
 
-	.navbar-right {
+
+	.nav-bar-topright {
 		padding-right: 15px;
 	}
 }
