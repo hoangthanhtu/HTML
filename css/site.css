@@ -654,7 +654,6 @@ li.subitem:before {
 }
 
 .menu .list-group-item {
-	padding-right: 0;
 	padding-left: 0;
 	border-right: 0;
 	border-left: 0;
@@ -670,7 +669,7 @@ h3.list-group-item-heading {
 }
 
 .menu-item {
-	padding-left: 30px;
+	padding-left: 15px;
 }
 
 .sub-item {
@@ -695,8 +694,21 @@ h3.list-group-item-heading {
 	color: #01A7F1;
 }
 
+a:focus {
+	outline: none;
+	outline-color: none;
+}
+
 .title-food {
 	padding-bottom: 20px;
+}
+
+.modal-body {
+	padding: 0;
+}
+
+#menu-item > a:first-child {
+	border-top: 0;
 }
 
 /* Customize Tab END HERE */
@@ -829,9 +841,10 @@ h3.list-group-item-heading {
 	#menu-tab.tab-content-row {
 		padding-right: 0px;
 		padding-left: 0px;
+		background-color: #F9F9F9;
 	}
 
-	.menu .list-group-item, .title-shop-info {
+	.list-group-item, .title-shop-info {
 		background-color: #F9F9F9;
 
 	}
@@ -843,7 +856,7 @@ h3.list-group-item-heading {
 
 	.menu .list-group-item {
 		padding-right: 15px;
-		padding-left: 15px;		
+		padding-left: 15px;
 	}
 
 	h3.list-group-item-heading {
@@ -854,11 +867,15 @@ h3.list-group-item-heading {
 		font-size: 16px;
 	}
 
+	.menu-item {
+		padding-left: 0;
+	}
+
 	.sub-item {
 		padding-top: 15px;
-		padding-right: 0px;
+		padding-right: 15px;
 		padding-bottom: 10px;
-		padding-left: 45px;
+		padding-left: 15px;
 		height: 50px;
 		font-size: 14px;
 	}
@@ -926,6 +943,10 @@ h3.list-group-item-heading {
 
 	.map-shop {
 		height: 350px;
+	}
+
+	a.list-group-item, #menu-tab.tab-content-row {
+		background-color: #F9F9F9;
 	}
 
 	h3.list-group-item-heading {
