@@ -1,26 +1,19 @@
-/* FOR HOME SCREEN */
-/* Set the width of the side navigation to 250px */
-function openNav() {
-	document.getElementById("sideNavRight").style.width = "250px";
-	$('#navbarTop').hide();
-}
 
-/* Set the width of the side navigation to 0 */
-function closeNav() {
-	document.getElementById("sideNavRight").style.width = "0";
-	$('#navbarTop').delay(1000).show();
-}
+$('#sidebar').click(function(e) {
+	
+	e.stopPropagation();
+	$('#navbar-home').toggleClass('narbar-main-show');
+});
 
-/* FOR OTHERS SCREEN */
-/* Set the width of the side navigation to 250px */
-function openRightNav() {
-	document.getElementById("navbar-home").style.width = "250px";
-}
+$('#navbar-home').click(function(e) {
+	e.stopPropagation();
+});
 
-/* Set the width of the side navigation to 0 */
-function closeRightNav() {
-	document.getElementById("navbar-home").style.width = "0";
-}
+$('body,html').click(function (e){
+	$('#navbar-home').removeClass('narbar-main-show');
+});
 
-
+$('.closebtn').click(function (e){
+	$('#navbar-home').removeClass('narbar-main-show');
+});
 
